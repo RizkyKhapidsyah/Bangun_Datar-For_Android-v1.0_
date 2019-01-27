@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated,SmallSp" >
+
+    <TextView
+        android:id="@+id/TV_Judul_LL_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="6dp"
+        android:text="@+string/TV_Judul_LL"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_PilihModeCari_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="34dp"
+        android:text="@+string/TV_PilihModeCari"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/IV_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="62dp"
+        android:contentDescription="@+string/IV_LL"
+        android:src="@drawable/layang_layang_beraturan_sedang" />
+
+    <Button
+        android:id="@+id/Button_MC_Semua_LL"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="62dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_Semua_LL"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSA_HSB_LL"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="112dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSA_HSB_LL"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HDV_LL"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="162dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HDV_LL"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HDVA_LL"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="212dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HDVA_LL"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HDVB_LL"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="262dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HDVB_LL"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HDH_LL"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="312dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HDH_LL"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="369dp"
+        android:text="@+string/TV_Keterangan_LL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan1_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="379dp"
+        android:text="@+string/TV_Keterangan1_LL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan2_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="389dp"
+        android:text="@+string/TV_Keterangan2_LL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan3_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="399dp"
+        android:text="@+string/TV_Keterangan3_LL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan4_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="408dp"
+        android:text="@+string/TV_Keterangan4_LL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan5_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="417.8dp"
+        android:text="@+string/TV_Keterangan5_LL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan6_LL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="427dp"
+        android:text="@+string/TV_Keterangan6_LL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+</AbsoluteLayout>

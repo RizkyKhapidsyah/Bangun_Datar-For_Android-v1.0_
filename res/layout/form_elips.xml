@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_Elips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="7dp"
+        android:text="@+string/TV_Judul_Elips"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_SubJudul_Elips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="33dp"
+        android:text="@+string/TV_SubJudul_Elips"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Input_Elips_SMy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="62dp"
+        android:text="@string/TV_Input_Elips_SMy"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Input_Elips_SMy"
+        android:layout_width="114dp"
+        android:layout_height="18dp"
+        android:layout_x="167dp"
+        android:layout_y="78dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Elips_SMy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="285dp"
+        android:layout_y="80dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Input_Elips_SMn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="100dp"
+        android:text="@string/TV_Input_Elips_SMn"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Input_Elips_SMn"
+        android:layout_width="114dp"
+        android:layout_height="18dp"
+        android:layout_x="167dp"
+        android:layout_y="116dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Elips_SMn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="286dp"
+        android:layout_y="118dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Elips_Luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="174dp"
+        android:text="@string/TV_Output_Elips_Luas"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Elips_Luas"
+        android:layout_width="152dp"
+        android:layout_height="18dp"
+        android:layout_x="133dp"
+        android:layout_y="189dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Elips_Keliling"
+        android:layout_width="152dp"
+        android:layout_height="18dp"
+        android:layout_x="133dp"
+        android:layout_y="223dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Elips_Keliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="208dp"
+        android:text="@string/TV_Output_Elips_Keliling"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Elips_Luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="191dp"
+        android:text="@string/TV_SatuanNilai_Pangkat2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Elips_Keliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="225dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Elips_Panjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="242dp"
+        android:text="@string/TV_Output_Elips_Panjang"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Elips_Panjang"
+        android:layout_width="152dp"
+        android:layout_height="18dp"
+        android:layout_x="133dp"
+        android:layout_y="258dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Elips_Panjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="260dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Elips_Lebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="277dp"
+        android:text="@string/TV_Output_Elips_Lebar"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Elips_Lebar"
+        android:layout_width="152dp"
+        android:layout_height="18dp"
+        android:layout_x="133dp"
+        android:layout_y="293dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Elips_Lebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="295dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Elips_S_Luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="313dp"
+        android:text="@string/TV_Output_Elips_S_Luas"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Elips_S_Luas"
+        android:layout_width="152dp"
+        android:layout_height="18dp"
+        android:layout_x="133dp"
+        android:layout_y="329dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Elips_S_Luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="331dp"
+        android:text="@string/TV_SatuanNilai_Pangkat2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Elips_S_Keliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="133dp"
+        android:layout_y="348dp"
+        android:text="@string/TV_Output_Elips_S_Keliling"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Elips_S_Keliling"
+        android:layout_width="152dp"
+        android:layout_height="18dp"
+        android:layout_x="133dp"
+        android:layout_y="363dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Elips_S_Keliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="288dp"
+        android:layout_y="365dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/IV_Gambar_Elips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="73dp"
+        android:contentDescription="@+string/IV_Elips"
+        android:src="@drawable/elips_normal" />
+
+    <ImageView
+        android:id="@+id/IV_Garis_Elips"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="147dp"
+        android:contentDescription="@+string/IV_Garis"
+        android:src="@drawable/garis" />
+
+    <Button
+        android:id="@+id/Button_Hitung_Elips"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="15dp"
+        android:layout_y="240dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_hitung"
+        android:text="@+string/Button_Hitung"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Reset_Elips"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="15dp"
+        android:layout_y="276dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_reset"
+        android:text="@+string/Button_Reset"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Detail_Elips"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="15dp"
+        android:layout_y="312dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_gambar"
+        android:text="@+string/Button_LihatGambar"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Kembali_Elips"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="15dp"
+        android:layout_y="348dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_kembali"
+        android:text="@+string/Button_Kembali"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Rumus_Elips"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="206dp"
+        android:layout_y="8dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_rumus_form"
+        android:text="@+string/Button_Rumus"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

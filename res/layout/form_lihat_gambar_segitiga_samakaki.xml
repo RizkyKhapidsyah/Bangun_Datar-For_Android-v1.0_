@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99FF99"
+    tools:ignore="Deprecated" >
+
+    <ImageView
+        android:id="@+id/LH_GambarSegitiga_SamaKaki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="7dp"
+        android:contentDescription="@+string/LH_GambarSegitiga_SamaKaki"
+        android:src="@drawable/segitiga_samakaki_rumus_matematika_com" />
+
+    <TextView
+        android:id="@+id/TV_PenjelasanSegitigaSamaKaki"
+        android:layout_width="284dp"
+        android:layout_height="236dp"
+        android:layout_x="19dp"
+        android:layout_y="190dp"
+        android:scrollbars="vertical"
+        android:textIsSelectable="true"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+</AbsoluteLayout>

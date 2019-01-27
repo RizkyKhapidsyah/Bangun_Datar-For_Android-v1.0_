@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated,SmallSp" >
+
+    <TextView
+        android:id="@+id/TV_Judul_Lingkaran_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="7dp"
+        android:text="@+string/TV_Judul_Lingkaran_MC_Semua"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_SubJudul_Lingkaran_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="33dp"
+        android:text="@+string/TV_SubJudul_Lingkaran_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_TitikDua_Lingkaran_R_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="180dp"
+        android:layout_y="66dp"
+        android:text="@string/TextTitikDua"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/ET_Input_Lingkaran_R_MC_Semua"
+        android:layout_width="102dp"
+        android:layout_height="22dp"
+        android:layout_x="185dp"
+        android:layout_y="63dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/IV_Gambar_Lingkaran_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="64dp"
+        android:contentDescription="@+string/IV_Lingkaran"
+        android:src="@drawable/lingkaran" />
+
+    <TextView
+        android:id="@+id/TV_Input_Lingkaran_R_MC_Semua"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="68dp"
+        android:text="@+string/TV_Input_Lingkaran_R_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_R_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="66dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_Hitung_Lingkaran_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="86dp"
+        android:layout_y="91dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_hitung"
+        android:text="@+string/Button_Hitung"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Reset_Lingkaran_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="196dp"
+        android:layout_y="91dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_reset"
+        android:text="@+string/Button_Reset"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_Luas_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="126dp"
+        android:text="@string/TV_Output_Lingkaran_Luas_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_Luas_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="138dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_Luas_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="141dp"
+        android:text="@+string/TV_SatuanNilai_Pangkat2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_Keliling_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="157dp"
+        android:text="@string/TV_Output_Lingkaran_Keliling_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_Keliling_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="168dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_Keliling_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="171dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_Diameter_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="187dp"
+        android:text="@string/TV_Output_Lingkaran_Diameter_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_Diameter_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="198dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_Diameter_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="202dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_lstgh_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="217dp"
+        android:text="@string/TV_Output_Lingkaran_lstgh_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_lstgh_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="228dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_lstgh_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="232dp"
+        android:text="@+string/TV_SatuanNilai_Pangkat2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_lsprmt_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="247dp"
+        android:text="@string/TV_Output_Lingkaran_lsprmt_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_lsprmt_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="258dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_lsprmt_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="263dp"
+        android:text="@+string/TV_SatuanNilai_Pangkat2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_ltprmt_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="276dp"
+        android:text="@string/TV_Output_Lingkaran_ltprmt_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_ltprmt_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="288dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_ltprmt_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="292dp"
+        android:text="@+string/TV_SatuanNilai_Pangkat2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_kstgh_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="307dp"
+        android:text="@string/TV_Output_Lingkaran_kstgh_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_kstgh_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="318dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_kstgh_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="322dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_ksprmt_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="337dp"
+        android:text="@string/TV_Output_Lingkaran_ksprmt_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_ksprmt_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="348dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_ksprmt_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="352dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_ktprmt_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="367dp"
+        android:text="@string/TV_Output_Lingkaran_ktprmt_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_ktprmt_MC_Semua"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_x="86dp"
+        android:layout_y="379dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_ktprmt_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="291dp"
+        android:layout_y="382dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/Button_Rumus_L_MC_Semua"
+        android:layout_width="83dp"
+        android:layout_height="34dp"
+        android:layout_x="8dp"
+        android:layout_y="402dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_rumus_form"
+        android:text="@+string/Button_Rumus"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Detail_Lingkaran_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="96dp"
+        android:layout_y="402dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_gambar"
+        android:text="@+string/Button_LihatGambar"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Kembali_Lingkaran_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="206dp"
+        android:layout_y="402dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_kembali"
+        android:text="@+string/Button_Kembali"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

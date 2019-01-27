@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99FF99" >
+
+    <ImageView
+        android:id="@+id/LH_GambarBujurSangkar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/lh_bujur_sangkar" 
+        android:contentDescription="@+string/LH_GambarBujurSangkar"/>
+
+	<TextView
+	    android:id="@+id/TV_PenjelasanBujurSangkar"
+	    android:layout_width="270dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/LH_GambarBujurSangkar"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="29dp"
+	    android:gravity="left"
+	    android:textIsSelectable="true"
+	    android:scrollbars="vertical"
+	    android:textStyle="normal"/>
+
+</RelativeLayout>

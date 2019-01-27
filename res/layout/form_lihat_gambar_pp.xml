@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99FF99"
+    tools:ignore="Deprecated" >
+
+    <ImageView
+        android:id="@+id/LH_GambarPersegiPanjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="96dp"
+        android:layout_y="25dp"
+        android:contentDescription="@+string/LH_GambarPersegiPanjang"
+        android:src="@drawable/lh_persegi_panjang" />
+
+    <TextView
+        android:id="@+id/TV_PenjelasanPersegiPanjang"
+        android:layout_width="284dp"
+        android:layout_height="259dp"
+        android:layout_x="18dp"
+        android:layout_y="123dp"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textIsSelectable="true"
+        android:textStyle="normal" />
+
+</AbsoluteLayout>

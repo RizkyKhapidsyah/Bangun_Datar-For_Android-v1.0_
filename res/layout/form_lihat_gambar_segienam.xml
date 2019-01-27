@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_PenjelasanSegiEnam"
+        android:layout_width="279dp"
+        android:layout_height="228dp"
+        android:layout_x="21dp"
+        android:layout_y="172dp"
+        android:scrollbars="vertical"
+        android:textIsSelectable="true"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/LH_SegiEnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="62dp"
+        android:contentDescription="@+string/IV_Gambar_SE"
+        android:src="@drawable/segienam_besar" />
+
+</AbsoluteLayout>

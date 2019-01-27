@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_JajarGenjang_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="7dp"
+        android:text="@+string/TV_Judul_JajarGenjang_MC_Semua"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_SubJudul_JajarGenjang_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="33dp"
+        android:text="@+string/TV_SubJudul_JajarGenjang_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Input_JajarGenjang_Alas_MC_Semua"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="67dp"
+        android:text="@+string/TV_Input_JajarGenjang_Alas_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_Alas_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="177dp"
+        android:layout_y="65dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_SM_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="177dp"
+        android:layout_y="119dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_Tinggi_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="177dp"
+        android:layout_y="91dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Input_JajarGenjang_Alas_MC_Semua"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_x="113dp"
+        android:layout_y="64dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ET_Input_JajarGenjang_SM_MC_Semua"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_x="113dp"
+        android:layout_y="116dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Input_JajarGenjang_Tinggi_MC_Semua"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_x="113dp"
+        android:layout_y="90dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_TitikDua_JajarGenjang_Alas_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="67dp"
+        android:text="@string/TextTitikDua"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TV_TitikDua_JajarGenjang_SM_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="119dp"
+        android:text="@string/TextTitikDua"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TV_TitikDua_JajarGenjang_Tinggi_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="93dp"
+        android:text="@string/TextTitikDua"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TV_Input_JajarGenjang_SM_MC_Semua"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="119dp"
+        android:text="@+string/TV_Input_JajarGenjang_SM_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Input_JajarGenjang_Tinggi_MC_Semua"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="93dp"
+        android:text="@+string/TV_Input_JajarGenjang_Tinggi_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/IV_Gambar_JajarGenjang_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="62dp"
+        android:contentDescription="@+string/IV_Gambar_JajarGenjang_MC_Semua"
+        android:src="@drawable/jajar_genjang_kecil" />
+
+    <EditText
+        android:id="@+id/ET_Input_JajarGenjang_SDA_MC_Semua"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_x="113dp"
+        android:layout_y="142dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/ET_Input_JajarGenjang_SDB_MC_Semua"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_x="113dp"
+        android:layout_y="168dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_SDA_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="177dp"
+        android:layout_y="146dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_SDB_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="177dp"
+        android:layout_y="173dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_TitikDua_JajarGenjang_SDA_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="144dp"
+        android:text="@string/TextTitikDua"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TV_TitikDua_JajarGenjang_SDB_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="170dp"
+        android:text="@string/TextTitikDua"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TV_Input_JajarGenjang_SDA_MC_Semua"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="144dp"
+        android:text="@+string/TV_Input_JajarGenjang_SDA_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Input_JajarGenjang_SDB_MC_Semua"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="171dp"
+        android:text="@+string/TV_Input_JajarGenjang_SDB_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_JajarGenjang_Luas_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="205dp"
+        android:text="@string/TV_Output_JajarGenjang_Luas_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_JajarGenjang_Luas_MC_Semua"
+        android:layout_width="165dp"
+        android:layout_height="22dp"
+        android:layout_x="7dp"
+        android:layout_y="224dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_JajarGenjang_Keliling_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="249dp"
+        android:text="@string/TV_Output_JajarGenjang_Keliling_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_JajarGenjang_Keliling_MC_Semua"
+        android:layout_width="165dp"
+        android:layout_height="22dp"
+        android:layout_x="7dp"
+        android:layout_y="268dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_JajarGenjang_SA_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="293dp"
+        android:text="@string/TV_Output_JajarGenjang_SA_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_JajarGenjang_SA_MC_Semua"
+        android:layout_width="165dp"
+        android:layout_height="22dp"
+        android:layout_x="7dp"
+        android:layout_y="311dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_Luas_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="178dp"
+        android:layout_y="227dp"
+        android:text="@+string/TV_SatuanNilai_Pangkat2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_Keliling_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="178dp"
+        android:layout_y="269dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_SA_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="178dp"
+        android:layout_y="313dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_JajarGenjang_D1_MC_Semua"
+        android:layout_width="165dp"
+        android:layout_height="22dp"
+        android:layout_x="7dp"
+        android:layout_y="355dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_JajarGenjang_D1_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="337dp"
+        android:text="@string/TV_Output_JajarGenjang_D1_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_D1_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="179dp"
+        android:layout_y="357dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Output_JajarGenjang_D2_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="380dp"
+        android:text="@string/TV_Output_JajarGenjang_D2_MC_Semua"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_JajarGenjang_D2_MC_Semua"
+        android:layout_width="165dp"
+        android:layout_height="22dp"
+        android:layout_x="7dp"
+        android:layout_y="398dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_JajarGenjang_D2_MC_Semua"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="180dp"
+        android:layout_y="400dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_Kembali_JajarGenjang_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="207dp"
+        android:layout_y="388dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_kembali"
+        android:text="@+string/Button_Kembali"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Detail_JajarGenjang_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="207dp"
+        android:layout_y="351dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_gambar"
+        android:text="@+string/Button_LihatGambar"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Reset_JajarGenjang_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="207dp"
+        android:layout_y="313dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_reset"
+        android:text="@+string/Button_Reset"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Rumus_JG_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="207dp"
+        android:layout_y="274dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_rumus_form"
+        android:text="@+string/Button_Rumus"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Hitung_JajarGenjang_MC_Semua"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="207dp"
+        android:layout_y="235dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_hitung"
+        android:text="@+string/Button_Hitung"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

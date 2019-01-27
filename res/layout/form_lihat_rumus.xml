@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_form_rumus"
+    tools:ignore="Deprecated" >
+
+    <Button
+        android:id="@+id/Button_LR_BujurSangkar"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="40dp"
+        android:layout_y="20dp"
+        android:drawableTop="@drawable/button_bujursangkar"
+        android:text="@+string/ButtonBujurSangkar"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_Elips"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_x="158dp"
+        android:layout_y="374dp"
+        android:drawableTop="@drawable/button_elips"
+        android:text="@+string/ButtonElips"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_Kembali"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_x="40dp"
+        android:layout_y="374dp"
+        android:drawableTop="@drawable/button_kembali"
+        android:text="@+string/ButtonKembali"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_Segilima"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="158dp"
+        android:layout_y="303dp"
+        android:drawableTop="@drawable/button_segilima"
+        android:text="@+string/ButtonSegilima"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_Trapesium"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="158dp"
+        android:layout_y="232dp"
+        android:drawableTop="@drawable/button_trapesium"
+        android:text="@+string/ButtonTrapesium"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_Lingkaran"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="40dp"
+        android:layout_y="232dp"
+        android:drawableTop="@drawable/button_lingkaran"
+        android:text="@+string/ButtonLingkaran"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_Segienam"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="40dp"
+        android:layout_y="303dp"
+        android:drawableTop="@drawable/button_segienam"
+        android:text="@+string/ButtonSegienam"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_LayangLayang"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="158dp"
+        android:layout_y="162dp"
+        android:drawableTop="@drawable/button_layanglayang"
+        android:text="@+string/ButtonLayangLayang"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_JajarGenjang"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="40dp"
+        android:layout_y="162dp"
+        android:drawableTop="@drawable/button_jajargenjang"
+        android:text="@+string/ButtonJajarGenjang"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_Segitiga"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="40dp"
+        android:layout_y="91dp"
+        android:drawableTop="@drawable/button_segitiga"
+        android:text="@+string/ButtonSegitiga"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_BelahKetupat"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="158dp"
+        android:layout_y="91dp"
+        android:drawableTop="@drawable/button_belahketupat"
+        android:text="@+string/ButtonBelahKetupat"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_LR_PersegiPanjang"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="158dp"
+        android:layout_y="20dp"
+        android:drawableTop="@drawable/button_persegipanjang"        
+        android:text="@+string/ButtonPersegiPanjang"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_Pilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="4dp"
+        android:text="@string/TV_Pilih" />
+
+</AbsoluteLayout>

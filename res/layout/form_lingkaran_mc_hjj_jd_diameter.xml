@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated,SmallSp" >
+
+    <TextView
+        android:id="@+id/TV_Judul_Lingkaran_MC_HJJ_JD_Diameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="7dp"
+        android:text="@+string/TV_Judul_Lingkaran_MC_Semua"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_SubJudul_Lingkaran_MC_HJJ_JD_Diameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="37dp"
+        android:text="@+string/TV_SubJudul_Lingkaran_MC_HJJ_JD_Diameter"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/IV_Gambar_Lingkaran_MC_HJJ_JD_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="72dp"
+        android:contentDescription="@+string/IV_Lingkaran"
+        android:src="@drawable/lingkaran" />
+
+    <TextView
+        android:id="@+id/TV_Jenis_Input_L_MC_HJJ_JD_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="59dp"
+        android:text="@string/TV_Jenis_Input_L_MC_HJJ_JD_D"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/TV_Input_Lingkaran_MC_HJJ_JD_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="76dp"
+        android:text="@+string/TV_Input_Lingkaran_MC_HJJ_JD_D"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Input_Lingkaran_JenisInput_MC_HJJ_JD_D"
+        android:layout_width="170dp"
+        android:layout_height="22dp"
+        android:layout_x="98dp"
+        android:layout_y="92dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TV_Input_SatuanNilai_JenisInput_MC_HJJ_JD_D"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="272dp"
+        android:layout_y="94dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_Hitung_Lingkaran_MC_HJJ_JD_D"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="120dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_hitung"
+        android:text="@+string/Button_Hitung"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Reset_Lingkaran_MC_HJJ_JD_D"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="120dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_reset"
+        android:text="@+string/Button_Reset"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_Output_Lingkaran_JariJari_MC_HJJ_JD_D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="173dp"
+        android:text="@string/TV_Output_Lingkaran_JariJari_MC_HJJ_JD_D"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_Lingkaran_JariJari_MC_HJJ_JD_D"
+        android:layout_width="170dp"
+        android:layout_height="22dp"
+        android:layout_x="98dp"
+        android:layout_y="190dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_Lingkaran_MC_HJJ_JD_D"
+        android:layout_width="62dp"
+        android:layout_height="28dp"
+        android:layout_x="272dp"
+        android:layout_y="192dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_Kembali_Lingkaran_MC_HJJ_JD_D"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="218dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_kembali"
+        android:text="@+string/Button_Kembali"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Detail_Lingkaran_MC_HJJ_JD_D"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_x="206dp"
+        android:layout_y="218dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_gambar"
+        android:text="@+string/Button_LihatGambar"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Rumus_LL_MC_HJJ_JD_DIAMETER"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="152dp"
+        android:layout_y="269dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_rumus_form"
+        android:text="@+string/Button_Rumus"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

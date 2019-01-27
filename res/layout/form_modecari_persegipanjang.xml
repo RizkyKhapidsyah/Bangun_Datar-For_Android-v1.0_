@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_PP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="4dp"
+        android:text="@+string/TV_Judul_PP"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/TV_PilihModeCari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="34dp"
+        android:text="@+string/TV_PilihModeCari"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/IV_PP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="85dp"
+        android:contentDescription="@+string/IV_PP"
+        android:src="@drawable/lh_persegi_panjang" />
+
+    <Button
+        android:id="@+id/Button_MC_Semua"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_x="25dp"
+        android:layout_y="188dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_Semua" 
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/Button_MC_HanyaLebar"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_x="25dp"
+        android:layout_y="244dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@string/Button_MC_HanyaLebar"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    
+    <Button
+        android:id="@+id/Button_MC_HanyaPanjang"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_x="25dp"
+        android:layout_y="300dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@string/Button_MC_HanyaPanjang" 
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    
+    <Button
+        android:id="@+id/Button_MC_HanyaDiagonal"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_x="25dp"
+        android:layout_y="357dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaDiagonal" 
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    
+</AbsoluteLayout>

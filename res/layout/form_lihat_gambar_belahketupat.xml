@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99FF99"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_PenjelasanBelahKetupat"
+        android:layout_width="284dp"
+        android:layout_height="277dp"
+        android:layout_x="19dp"
+        android:layout_y="148dp"
+        android:scrollbars="vertical"
+        android:textIsSelectable="true"
+        android:textSize="12sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/LH_GambarBelahKetupat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="13dp"
+        android:contentDescription="@+string/LH_GambarBelahKetupat"
+        android:src="@drawable/belah_ketupat_besar" />
+
+</AbsoluteLayout>

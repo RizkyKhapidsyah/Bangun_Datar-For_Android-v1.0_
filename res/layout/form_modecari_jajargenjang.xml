@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_JajarGenjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="6dp"
+        android:text="@+string/TV_Judul_JajarGenjang"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_PilihModeCari_JajarGenjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="34dp"
+        android:text="@+string/TV_PilihModeCari"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/Button_MC_HanyaD2_JajarGenjang"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_x="20dp"
+        android:layout_y="386dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaD2_JajarGenjang"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HanyaD1_JajarGenjang"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_x="20dp"
+        android:layout_y="344dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaD1_JajarGenjang"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HanyaAlas_JajarGenjang"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_x="20dp"
+        android:layout_y="302dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaAlas_JajarGenjang"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HanyaTinggi_JajarGenjang"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_x="20dp"
+        android:layout_y="260dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaTinggi_JajarGenjang"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HanyaLuasKeliling_JajarGenjang"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_x="20dp"
+        android:layout_y="218dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaLuasKeliling_JajarGenjang"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_Semua_JajarGenjang"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_x="20dp"
+        android:layout_y="176dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_Semua_JajarGenjang"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/IV_JajarGenjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="67dp"
+        android:contentDescription="@+string/IV_JajarGenjang"
+        android:src="@drawable/jajar_genjang_besar2" />
+
+</AbsoluteLayout>
