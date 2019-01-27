@@ -1,0 +1,29 @@
+Dalam geometri Euklid, sebuah lingkaran adalah himpunan semua titik
+pada bidang dalam jarak tertentu, yang disebut jari-jari, dari suatu titik
+tertentu, yang disebut pusat. Lingkaran adalah contoh dari kurva tertutup
+sederhana, membagi bidang menjadi bagian dalam dan bagian luar.
+
+Beberapa istilah geometri mengenai lingkaran, yaitu :
+
+Istilah yang menunjukkan titik, yaitu :
+Titik pusat (P) : merupakan titik tengah lingkaran, di mana jarak titik tersebut dengan
+titik manapun pada lingkaran selalu tetap.
+
+Istilah yang menunjukkan garisan, yaitu :
+
+- Jari-jari (R) : merupakan garis lurus yang menghubungkan titik pusat dengan
+lingkaran.
+- Tali busur (TB) : merupakan garis lurus di dalam lingkaran yang memotong lingkaran
+pada dua titik yang berbeda.
+- Busur (B) : merupakan garis lengkung baik terbuka, maupun tertutup yang berimpit dengan lingkaran.
+- Keliling lingkaran (K) : merupakan busur terpanjang pada lingkaran.
+- Diameter (D) : merupakan tali busur terbesar yang panjangnya adalah dua kali dari jari-jarinya. Diameter ini membagi
+lingkaran sama luas.
+- Apotema : merupakan garis terpendek antara tali busur dan pusat lingkaran.
+
+Istilah yang menunjukkan luasan, yaitu :
+- Juring (J) : merupakan daerah pada lingkaran yang dibatasi oleh busur dan dua buah jari-jari yang berada pada kedua
+ujungnya.
+- Tembereng (T) : merupakan daerah pada lingkaran yang dibatasi oleh sebuah busur dengan tali busurnya.
+- Cakram (C) : merupakan semua daerah yang berada di dalam lingkaran. Luasnya yaitu jari-jari kuadrat dikalikan dengan
+pi. Cakram merupakan juring terbesar. (https://id.wikipedia.org/wiki/Lingkaran)

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarLingkaran" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarLingkaran.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="118" y="205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarSegiLima" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarSegiLima.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="353" y="205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarElips" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarElips.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="576" y="205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarJajarGenjang" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarJajarGenjang.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="809" y="205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarBS" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarBS.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1065" y="205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.rizkyhafitsyah.bangundatar.Form_PilihJenis_Ringkasan_Segitiga" 
+    project="BangunDatar" file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/Form_PilihJenis_Ringkasan_Segitiga.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="247" y="371"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarLayangLayang" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarLayangLayang.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="507" y="389"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarPP" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarPP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="750" y="389"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarBelahKetupat" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarBelahKetupat.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="989" y="389"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarTrapesium" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarTrapesium.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="439" y="565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.rizkyhafitsyah.bangundatar.FormLihatGambarSegiEnam" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/FormLihatGambarSegiEnam.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="661" y="565"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.rizkyhafitsyah.bangundatar.Form_Ringkasan" project="BangunDatar" 
+    file="/BangunDatar/src/com/rizkyhafitsyah/bangundatar/Form_Ringkasan.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="538" y="-91"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="22">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
