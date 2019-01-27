@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rizkyhafitsyah.bangundatar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_aplikasi_2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.rizkyhafitsyah.bangundatar.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormMulaiHitung"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_BujurSangkar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+        <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_BujurSangkar_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+        <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_BujurSangkar_MC_HS"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>                       
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarBS"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_PersegiPanjang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>    
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_PersegiPanjang_MC_HanyaDiagonal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_PersegiPanjang_MC_HanyaLebar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_PersegiPanjang_MC_HanyaPanjang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_PersegiPanjang_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarPP"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_PilihJenis_Segitiga"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>   
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_Segitiga_SamaKaki"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SamaKaki_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SamaKaki_MC_HanyaSisi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>        
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SamaKaki_MC_HanyaAlas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+       <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SamaKaki_MC_HanyaTinggi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>                
+      <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarSegitigaSamaKaki"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+      <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_Segitiga_SamaSisi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SamaSisi_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarSegitigaSamaSisi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SamaSisi_MC_HanyaTinggi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_Segitiga_Sembarang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarSegitigaSembarang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>          
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_Sembarang_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>    
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_Sembarang_MC_HanyaSisi_A"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>             
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_Sembarang_MC_HanyaSisi_B"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_Sembarang_MC_HanyaTinggi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+     <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_Segitiga_SikuSiku"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>   
+    <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarSegitigaSikuSiku"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+    <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SikuSiku_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>   
+    <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SikuSiku_MC_HanyaSisi_A"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>   
+    <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SikuSiku_MC_HanyaSisi_B"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+   <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segitiga_SikuSiku_MC_HanyaSisi_Miring"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+   <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_BelahKetupat"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+   <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarBelahKetupat"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+   <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_BelahKetupat_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_BelahKetupat_MC_HanyaSisi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_BelahKetupat_MC_Hanya_D1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_BelahKetupat_MC_Hanya_D2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_JajarGenjang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarJajarGenjang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_JajarGenjang_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>   
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_JajarGenjang_MC_HLK"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_JajarGenjang_MC_HanyaTinggi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_JajarGenjang_MC_HanyaAlas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+  <activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_JajarGenjang_MC_HD1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_JajarGenjang_MC_HD2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_LayangLayang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarLayangLayang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_LayangLayang_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_LayangLayang_MC_HSA_HSB"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_LayangLayang_MC_HDV"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_LayangLayang_MC_HDV_A"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_LayangLayang_MC_HDV_B"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_LayangLayang_MC_HDH"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_Lingkaran"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarLingkaran"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Lingkaran_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Lingkaran_MC_HJJ"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Lingkaran_MC_HJJ_JD_Diameter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Lingkaran_MC_HJJ_JD_Keliling"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Lingkaran_MC_HJJ_JD_Luas"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_PilihJenis_Trapesium"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>                                         
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_Trapesium_SamaKaki"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarTrapesium"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SamaKaki_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>   
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SamaKaki_MC_HSA"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SamaKaki_MC_HSB"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SamaKaki_MC_HSM"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SamaKaki_MC_HanyaTinggi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SamaKaki_MC_HSMD"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SamaKaki_MC_HSBKr"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SamaKaki_MC_HSBKn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_Trapesium_Sembarang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_Sembarang_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_Sembarang_MC_HSA"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>    
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_Sembarang_MC_HSB"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_Sembarang_MC_HSKr"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_Sembarang_MC_HT"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_Sembarang_MC_HSBKr"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_Trapesium_SikuSiku"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SikuSiku_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SikuSiku_MC_HSA"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SikuSiku_MC_HSB"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Trapesium_SikuSiku_MC_HT"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarSegiEnam"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_SegiEnam_Beraturan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarSegiLima"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_ModeCari_SegiLima_Beraturan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Segilima_MC_Semua"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_SegiLima_MC_HS"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.FormLihatGambarElips"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Elips"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Ringkasan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_PilihJenis_Ringkasan_Segitiga"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Lihat_Rumus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_BS"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_PP"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_S"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_BK"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_JG"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_LL"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_L"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_SE"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_SL"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_E"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Rumus_T"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+	<activity
+            android:name="com.rizkyhafitsyah.bangundatar.Form_Tentang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>                                                               
+                                                               
+  
+   
+    </application>
+
+</manifest>
