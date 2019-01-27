@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bangun Datar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="TV_SatuanNilai">cm</string>
+    <string name="TV_SatuanNilai_Pangkat2">cm2</string>
+    <string name="Button_Hitung">HITUNG</string>
+    <string name="Button_Ringkasan">RINGKASAN</string>
+    <string name="Button_Reset">RESET</string>
+    <string name="Button_Kembali">KEMBALI</string>
+    <string name="Button_LihatGambar">DETAIL</string>
+    <string name="Button_Rumus">LIHAT RUMUS</string>
+    <string name="TextTitikDua">:</string>        
+    <string name="TV_PilihModeCari">Pilih Unit Yang Ingin Dihitung :</string>
+	<string name="AngkaNol">0</string> 
+    <string name="AngkaSatu">1</string>    
+    <string name="AngkaDua">2</string>    
+    <string name="AngkaTiga">3</string>    
+    <string name="AngkaEmpat">4</string>    
+    <string name="AngkaLima">5</string>    
+    <string name="AngkaEnam">6</string>    
+    <string name="AngkaTujuh">7</string>    
+    <string name="AngkaDelapan">8</string>    
+    <string name="AngkaSembilan">9</string>    
+    <string name="AngkaSepuluh">10</string>    
+    <string name="AngkaSebelas">11</string>    
+    <string name="AngkaDuaBelas">12</string>    
+    <string name="AngkaTigaBelas">13</string>    
+    <string name="AngkaEmpatBelas">14</string>    
+    <string name="AngkaLimaBelas">15</string>    
+    <string name="AngkaEnamBelas">16</string>    
+    <string name="AngkaTujuhBelas">17</string>    
+    <string name="AngkaDelapanBelas">18</string>    
+    <string name="AngkaSembilanBelas">19</string>    
+    <string name="AngkaDuaPuluh">20</string>
+    <string name="TakTerhingga">Tak Terhingga</string>
+    <string name="TidakAda">Tidak Ada</string>
+        
+    
+    <string name="ImageView_TampilanUtama"></string>
+    <string name="TextView_TampilanUtama">Penghitung Rumus Bangun Datar</string>
+    <string name="TextView_TampilanUtama2">Untuk Pembelajaran Matematika</string>
+    <string name="TextView_TampilanUtama3">BANGUN DATAR v1.0</string>
+    <string name="TextView_ButtonMulaiHitung">Mulai Hitung</string>
+    <string name="TextView_ButtonLihatRumus">Lihat Rumus</string>
+    <string name="TextView_ButtonRingkasan">Ringkasan</string>
+    <string name="TextView_ButtonTentang">Tentang</string>
+    <string name="TextView_ButtonPengaturan">Pengaturan</string>
+    <string name="TextView_ButtonKeluar">Keluar</string>
+        
+    <string name="ButtonBujurSangkar">Bujur Sangkar</string>
+    <string name="ButtonPersegiPanjang">Persegi Panjang</string>
+    <string name="ButtonSegitiga">Segitiga</string>
+    <string name="ButtonBelahKetupat">Belah Ketupat</string>
+    <string name="ButtonJajarGenjang">Jajar Genjang</string>
+    <string name="ButtonLayangLayang">Layang-Layang</string>
+    <string name="ButtonLingkaran">Lingkaran</string>
+    <string name="ButtonTrapesium">Trapesium</string>
+    <string name="ButtonSegilima">Segilima</string>
+    <string name="ButtonSegienam">Segienam</string>
+    <string name="ButtonElips">Elips</string>
+    <string name="ButtonKembali">Kembali</string>
+    
+    <string name="TV_Judul_PP">PERSEGI PANJANG</string>
+    <string name="TV_SubJudul_PP_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="TV_SubJudul_PP_MC_Diagonal">Mode Cari : Hanya Diagonal</string>
+    <string name="TV_SubJudul_PP_MC_Panjang">Mode Cari : Hanya Panjang</string>
+    <string name="TV_SubJudul_PP_MC_Lebar">Mode Cari : Hanya Lebar</string>
+    <string name="Button_MC_Semua">Semua Unit</string>
+    <string name="Button_MC_HanyaDiagonal">Hanya Diagonal</string>
+    <string name="Button_MC_HanyaLebar">Hanya Lebar</string>
+    <string name="Button_MC_HanyaPanjang">Hanya Panjang</string>
+    
+    <string name="TV_Input_BS_S_MC_Semua">Sisi [s] :</string>
+    <string name="IV_BujurSangkar">Bujur Sangkar</string>
+    <string name="TV_Output_BS_Luas_MC_Semua">LUAS :</string>
+    <string name="TV_Output_BS_Keliling_MC_Semua">KELILING :</string>
+    <string name="TV_Output_BS_D_MC_Semua">DIAGONAL [d] :</string>
+    <string name="TV_Judul_BS">BUJUR SANGKAR / PERSEGI</string>
+    <string name="TV_PilihModeCari_BS">Pilih Unit Yang Ingin Dihitung :</string>
+    <string name="IV_BS">Gambar Bujur Sangkar. Unit Penghitungan Lihat pada parameter berdasarkan Gambar.</string>
+    <string name="Button_MC_Semua_BS">Semua Unit</string>
+    <string name="Button_MC_HS_BS">Hanya Sisi [s]</string>
+    <string name="LH_GambarBujurSangkar">Bujur Sangkar</string>
+    <string name="TV_SubJudul_BS_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="TV_SubJudul_BS_MC_HS">Mode Cari : Hanya Sisi [s]</string>
+    <string name="TV_Input_BS_L_MC_HS">Luas :</string>
+    <string name="TV_Output_BS_Sisi_MC_HS">SISI [s] :</string>
+    
+    
+    
+    
+    
+    
+    <string name="TV_Input_PP_Panjang">Nilai Panjang (p) :</string>
+    <string name="TV_Input_PP_Lebar">Nilai Lebar (l) :</string>
+    <string name="TV_Input_PP_Luas">Nilai Luas :</string>
+    <string name="TV_Output_PP_Luas">LUAS</string>
+    <string name="TV_Output_PP_Keliling">KELILING</string>
+    <string name="TV_Output_PP_Diagonal">DIAGONAL (d)</string>
+    <string name="TV_Output_PP_Lebar">LEBAR (l) :</string>
+    <string name="TV_Output_PP_Panjang">PANJANG (p) :</string>
+    <string name="IV_PP">Gambar Persegi Panjang</string>
+    
+    <string name="LH_GambarPersegiPanjang">Lihat Gambar Persegi Panjang</string>
+
+    <string name="TV_Judul_S">SEGITIGA</string>
+    <string name="TV_SubJudul_S">Pilih Jenis Segitiga :</string>
+    <string name="Button_SegitigaSamaKaki_Pilihan">Segitiga Sama Kaki</string>
+    <string name="Button_SegitigaSamaSisi_Pilihan">Segitiga Sama Sisi</string>
+    <string name="Button_SegitigaSembarang_Pilihan">Segitiga Sembarang</string>
+    <string name="Button_SegitigaSikuSiku_Pilihan">Segitiga Siku-Siku</string>
+    
+    <string name="TV_Judul_S_SamaKaki">Segitiga Sama Kaki</string>
+    <string name="TV_LR_Judul_S_SamaKaki">SEGITIGA SAMAKAKI</string>
+    <string name="TV_Judul_S_SamaSisi">Segitiga Sama Sisi</string>
+    <string name="TV_LR_Judul_S_SamaSisi">SEGITIGA SAMA SISI</string>
+    <string name="TV_Judul_S_Sembarang">Segitiga Sembarang</string>
+    <string name="TV_LR_Judul_S_Sembarang">SEGITIGA SEMBARANG</string>
+    <string name="Button_MC_Semua_S_SamaKaki">Semua Unit</string>
+    <string name="Button_MC_Semua_S_SamaSisi">Semua Unit</string>
+    <string name="Button_MC_Semua_S_Sembarang">Semua Unit</string>
+    <string name="Button_MC_HanyaSisi_S_SamaKaki">Hanya Sisi</string>
+    <string name="Button_MC_HanyaAlas_S_SamaKaki">Hanya Alas</string>
+    <string name="Button_MC_HanyaTinggi_S_SamaKaki">Hanya Tinggi</string>
+    <string name="Button_MC_HanyaTinggi_S_SamaSisi">Hanya Tinggi</string>
+    <string name="TV_SubJudul_S_SamaKaki_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="TV_SubJudul_S_SamaKaki_MC_HanyaSisi">Mode Cari : Hanya Sisi</string>
+    <string name="TV_SubJudul_S_SamaKaki_MC_HanyaAlas">Mode Cari : Hanya Alas</string>
+    <string name="TV_SubJudul_S_SamaKaki_MC_HanyaTinggi">Mode Cari : Hanya Tinggi</string>
+    <string name="TV_SubJudul_S_SamaSisi_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="TV_SubJudul_S_SamaSisi_MC_HanyaTinggi">Mode Cari : Hanya Tinggi</string>
+    <string name="TV_SubJudul_S_Sembarang_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="TV_Input_S_SamaKaki_Alas_MC_Semua">Nilai Alas (a) :</string>
+	<string name="TV_Input_S_SamaKaki_Alas_MC_HanyaSisi">Nilai Alas (a) :</string>
+	<string name="TV_Input_S_SamaKaki_Tinggi_MC_HanyaSisi">Nilai Tinggi (t) :</string>
+    <string name="TV_Input_S_SamaKaki_Tinggi_MC_Semua">Nilai Tinggi (t) :</string>
+    <string name="TV_Input_S_SamaKaki_Sisi_MC_Semua">Nilai Sisi (s) :</string>
+    <string name="TV_Input_S_SamaKaki_Luas_MC_HanyaAlas">Nilai Luas (L) :</string>
+    <string name="TV_Input_S_SamaKaki_Tinggi_MC_HanyaAlas">Nilai Tinggi (t) :</string>
+    <string name="TV_Input_S_SamaKaki_Luas_MC_HanyaTinggi">Nilai Luas (L) :</string>
+    <string name="TV_Input_S_SamaKaki_Alas_MC_HanyaTinggi">Nilai Alas (a) :</string>
+    <string name="TV_Input_S_SamaSisi_SisiAtauAlas_MC_Semua">Nilai Sisi (s) atau Alas (a) :</string>
+    <string name="TV_Input_S_SamaSisi_Tinggi_MC_Semua">Nilai Tinggi (t) :</string>
+    <string name="TV_Output_S_SamaSisi_Luas_MC_Semua">LUAS (L)</string>
+    <string name="TV_Output_S_SamaSisi_Keliling_MC_Semua">KELILING (K)</string>
+    <string name="TV_Output_S_SamaSisi_SetengahAlas_MC_Semua">1/2 ALAS</string>
+    <string name="TV_Output_S_SamaKaki_Alas_MC_HanyaAlas">ALAS (a) :</string> 
+    <string name="TV_Output_S_SamaKaki_Luas_MC_Semua">LUAS</string>
+    <string name="TV_Output_S_SamaKaki_Keliling_MC_Semua">KELILING</string>
+    <string name="TV_Output_S_SamaKaki_SetengahAlas_MC_Semua">1/2 ALAS</string>
+    <string name="TV_Output_S_SamaKaki_SetengahAlas_MC_HanyaAlas">1/2 ALAS :</string>
+    <string name="TV_Output_S_SamaKaki_Sisi_MC_HanyaSisi">SISI :</string>
+    <string name="TV_Output_S_SamaKaki_Tinggi_MC_HanyaTinggi">TINGGI (t) :</string>
+    <string name="TV_Input_S_SamaSisi_SisiAtauAlas_MC_HanyaTinggi">Nilai Sisi (s) atau Alas (a) :</string>
+    <string name="TV_Output_S_SamaSisi_Tinggi_MC_HanyaTinggi">TINGGI (t) :</string>
+    <string name="TV_Input_S_SamaSisi_Luas_MC_HanyaTinggi">Luas (L) :</string>
+    <string name="LH_GambarSegitiga_SamaKaki">Segitiga Sama Kaki</string>
+    <string name="Button_MC_HanyaSisiA_S_Sembarang">Hanya Sisi A (a)</string>
+    <string name="Button_MC_HanyaSisiB_S_Sembarang">Hanya Sisi B (b)</string>
+    <string name="Button_MC_HanyaTinggi_S_Sembarang">Tinggi (t)</string>
+    <string name="IV_SegitigaSembarang">Gambar Segitiga Sembarang</string>
+    <string name="TV_Input_S_Sembarang_SisiA_MC_Semua">Nilai Sisi A</string>
+    <string name="TV_Input_S_Sembarang_SisiB_MC_Semua">Nilai Sisi B</string>
+    <string name="TV_Input_S_Sembarang_SisiC_MC_Semua">Nilai Sisi C</string>
+    <string name="TV_Input_S_Sembarang_Tinggi_MC_Semua">Nilai Tinggi (t)</string>
+    <string name="TV_Output_S_Sembarang_Luas_MC_Semua">LUAS</string>
+    <string name="TV_Output_S_Sembarang_Keliling_MC_Semua">KELILING</string>
+    <string name="TV_Output_S_Sembarang_SetengahAlas_MC_Semua">1/2 ALAS</string>
+    <string name="IV_Gambar_Segitiga_Sembarang_MC_Semua">Gambar Segitiga Sembarang (Lihat point satuan nilai.)</string>
+    <string name="TV_SubJudul_S_Sembarang_MC_HS_A">Mode Cari : Hanya Sisi A</string>
+    <string name="IV_Gambar_Segitiga_Sembarang_MC_HS_A">Gambar Segitiga Sembarang (Lihat point satuan nilai.)</string>
+    <string name="IV_Gambar_Segitiga_Sembarang_MC_HS_B">Gambar Segitiga Sembarang (Lihat point satuan nilai.)</string>
+    <string name="TV_Input_S_Sembarang_SisiB_MC_HS_A">Nilai Sisi B (b)</string>
+    <string name="TV_Input_S_Sembarang_Tinggi_MC_HS_A">Nilai Tinggi (t)</string>
+    <string name="TV_Output_S_Sembarang_SisiA_MC_HS_A">Nilai Sisi A (a)</string>
+    <string name="TV_SubJudul_S_Sembarang_MC_HS_B">Mode Cari : Hanya Sisi B</string>
+    <string name="TV_Input_S_Sembarang_SisiA_MC_HS_B">Nilai Sisi A (a)</string>
+    <string name="TV_Input_S_Sembarang_Tinggi_MC_HS_B">Nilai Tinggi (t)</string>
+    <string name="TV_Output_S_Sembarang_SisiB_MC_HS_B">Nilai Sisi B (b)</string>
+    <string name="TV_SubJudul_S_Sembarang_MC_HanyaTinggi">Mode Cari : Hanya Tinggi</string>
+    <string name="IV_Gambar_Segitiga_Sembarang_MC_HanyaTinggi">Gambar Segitiga Sembarang</string>
+    <string name="TV_Input_S_Sembarang_Luas_MC_HanyaTinggi">Luas (L)</string>
+    <string name="TV_Input_S_Sembarang_SisiB_MC_HanyaTinggi">Sisi B (b)</string>
+    <string name="TV_Input_S_Sembarang_SisiB_MC_HanyaTinggi_Desc">Sisi B merupakan Alas dari Segitiga</string>
+    <string name="TV_Output_S_Sembarang_Tinggi_MC_HanyaTinggi">TINGGI (t)</string>
+    <string name="TV_Judul_S_SikuSiku">Segitiga Siku-Siku</string>
+    <string name="TV_LR_Judul_S_SikuSiku">SEGITIGA SIKU-SIKU</string>
+    <string name="IV_SegitigaSikuSiku">Gambar Segitiga Siku Siku</string>
+    <string name="Button_MC_Semua_S_SikuSiku">Semua Unit</string>
+    <string name="Button_MC_HanyaSisiA_S_SikuSiku">Hanya Sisi A (a)</string>
+    <string name="Button_MC_HanyaSisiB_S_SikuSiku">Hanya Sisi B (b)</string>
+    <string name="Button_MC_HanyaSisiMiring_S_SikuSiku">Hanya Sisi Miring (sm)</string>
+    <string name="TV_SubJudul_S_SikuSiku_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="IV_Gambar_Segitiga_SikuSiku_MC_Semua">Gambar Segitiga Siku-Siku</string>
+    <string name="TV_Input_S_SikuSiku_SisiA_MC_Semua">Sisi A (a)</string>
+    <string name="TV_Input_S_SikuSiku_SisiB_MC_Semua">Sisi B (b)</string>
+    <string name="TV_Input_S_SikuSiku_SM_MC_Semua">Sisi Miring (sm)</string>
+    <string name="TV_Output_S_SikuSiku_Luas_MC_Semua">LUAS (L)</string>
+    <string name="TV_Output_S_SikuSiku_Keliling_MC_Semua">KELILING (K)</string>
+    <string name="TV_Output_S_SikuSiku_SetengahAlas_MC_Semua">SETENGAH ALAS</string>
+    <string name="TV_SubJudul_S_SikuSiku_MC_HS_A">Mode Cari : Hanya Sisi A</string>
+    <string name="IV_Gambar_Segitiga_SikuSiku_MC_HS_A">Segitiga Siku-Siku</string>
+    <string name="TV_Input_S_SikuSiku_SisiMiring_MC_HS_A">Sisi Miring (sm)</string>
+    <string name="TV_Input_S_SikuSiku_SisiB_MC_HS_A">Sisi B (b)/Alas </string>
+    <string name="TV_Output_S_SikuSiku_SisiB_MC_HS_A">SISI A (a) </string>
+    <string name="TV_SubJudul_S_SikuSiku_MC_HS_B">Mode Cari : Hanya Sisi B </string>
+    <string name="IV_Gambar_Segitiga_SikuSiku_MC_HS_B">Gambar Segitiga Siku Siku </string>
+    <string name="TV_Input_S_SikuSiku_SisiMiring_MC_HS_B">Sisi Miring (sm) : </string>
+    <string name="TV_Input_S_SikuSiku_SisiA_MC_HS_B">Sisi A (a): </string>
+    <string name="TV_Output_S_SikuSiku_SisiB_MC_HS_B">Sisi B (b): </string>
+    <string name="TV_SubJudul_S_SikuSiku_MC_HS_SM">Mode Cari : Hanya Sisi Miring</string>
+    <string name="IV_Gambar_Segitiga_SikuSiku_MC_HS_SM">Segitiga Siku Siku</string>
+    <string name="TV_Input_S_SikuSiku_SisiA_MC_HS_SM">Sisi A (a) :</string>
+    <string name="TV_Input_S_SikuSiku_SisiB_MC_HS_SM">Sisi B (b) :</string>
+    <string name="TV_Output_S_SikuSiku_SM_MC_HS_SM">SISI MIRING (sm) :</string>
+    <string name="TV_Judul_BelahKetupat">Belah Ketupat</string>
+    <string name="TV_Judul_BK">BELAH KETUPAT</string>
+    <string name="IV_BelahKetupat">Gambar Belah Ketupat</string>
+    <string name="Button_MC_Semua_BelahKetupat">Semua Unit</string>
+    <string name="Button_MC_HanyaSisi_BelahKetupat">Hanya Sisi (s)</string>
+    <string name="Button_MC_HanyaDiagonal1_BelahKetupat">Hanya Diagonal 1 (d1)</string>
+    <string name="Button_MC_HanyaDiagonal2_BelahKetupat">Hanya Diagonal 2 (d2)</string>
+    <string name="LH_GambarBelahKetupat">Gambar Belah Ketupat</string>
+    <string name="TV_SubJudul_BelahKetupat_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="IV_Gambar_BelahKetupat_MC_Semua">Gambar Belah Ketupat</string>
+    <string name="TV_Input_BelahKetupat_D1_MC_Semua">Diagonal 1 (d1)</string>
+    <string name="TV_Input_BelahKetupat_D2_MC_Semua">Diagonal 2 (d2)</string>
+    <string name="TV_Input_BelahKetupat_Sisi_MC_Semua">Sisi (s)</string>
+    <string name="TV_Output_BelahKetupat_Luas_MC_Semua">LUAS (L)</string>
+    <string name="TV_Output_BelahKetupat_Keliling_MC_Semua">KELILING (K)</string>
+    <string name="TV_Output_BelahKetupat_SetengahDiagonal_MC_Semua">1/2 DIAGONAL</string>
+    <string name="TV_SubJudul_BelahKetupat_MC_HanyaSisi">Mode Cari : Hanya Sisi</string>
+    <string name="IV_Gambar_BelahKetupat_MC_HanyaSisi">Gambar Belah Ketupat</string>
+    <string name="TV_Input_BelahKetupat_D1_MC_HanyaSisi">Diagonal 1 (d1)</string>
+    <string name="TV_Input_BelahKetupat_D2_MC_HanyaSisi">Diagonal 2 (d2)</string>
+    <string name="TV_Output_BelahKetupat_Sisi_MC_HanyaSisi">SISI (s) :</string>
+    <string name="TV_SubJudul_BelahKetupat_MC_HanyaD1">Mode Cari : Hanya Diagonal 1</string>
+    <string name="IV_Gambar_BelahKetupat_MC_HanyaD1">Gambar Belah Ketupat: Unit Pencarian: Hanya Diagonal 1</string>
+    <string name="TV_Input_BelahKetupat_Luas_MC_HanyaD1">Luas (L)</string>
+    <string name="TV_Input_BelahKetupat_D2_MC_HanyaD1">Diagonal 2 (d2)</string>
+    <string name="TV_Output_BelahKetupat_D1_MC_HanyaD1">DIAGONAL 1 (d1) : </string>
+    <string name="TV_SubJudul_BelahKetupat_MC_HanyaD2">Mode Cari : Hanya Diagonal 2 </string>
+    <string name="IV_Gambar_BelahKetupat_MC_HanyaD2">Gambar Belah Ketupat: Unit Pencarian: Hanya Diagonal 2</string>
+    <string name="TV_Input_BelahKetupat_Luas_MC_HanyaD2">Luas (L)</string>
+    <string name="TV_Input_BelahKetupat_D1_MC_HanyaD2">Diagonal 1 (d1)</string>
+    <string name="TV_Output_BelahKetupat_D2_MC_HanyaD2">Diagonal 2 (d2) :</string>
+    <string name="TV_Judul_JajarGenjang">Jajar Genjang</string>
+    <string name="TV_Judul_JG">JAJAR GENJANG</string>
+    <string name="IV_JajarGenjang">Gambar Bangun Datar - Jajar Genjang. Lihat Gambar Untuk Nilai pada Point-Point Penghitungan</string>
+    <string name="Button_MC_Semua_JajarGenjang">Semua Unit</string>
+    <string name="Button_MC_HanyaLuasKeliling_JajarGenjang">Hanya Luas dan Keliling</string>
+    <string name="Button_MC_HanyaTinggi_JajarGenjang">Hanya Tinggi (t)</string>
+    <string name="Button_MC_HanyaAlas_JajarGenjang">Hanya Alas (a)</string>
+    <string name="Button_MC_HanyaD1_JajarGenjang">Hanya Diagonal 1 (d1)</string>
+    <string name="Button_MC_HanyaD2_JajarGenjang">Hanya Diagonal 2 (d2)</string>
+    <string name="LH_GambarJajarGenjang">Gambar Jajar Genjang</string>
+    <string name="TV_Judul_JajarGenjang_MC_Semua">Jajar Genjang</string>
+    <string name="TV_SubJudul_JajarGenjang_MC_Semua">Mode Cari : Semua Unit (Lihat Gambar)</string>
+    <string name="IV_Gambar_JajarGenjang_MC_Semua">Gambar Jajar Genjang. Unit input nilai lihat berdasarkan pada gambar.</string>
+    <string name="TV_Input_JajarGenjang_Alas_MC_Semua">Alas (a)</string>
+    <string name="TV_Input_JajarGenjang_Tinggi_MC_Semua">Tinggi (t)</string>
+    <string name="TV_Input_JajarGenjang_SM_MC_Semua">Sisi Miring (sm)</string>
+    <string name="TV_Input_JajarGenjang_SDA_MC_Semua">Sisi Dalam Atas (sda)</string>
+    <string name="TV_Input_JajarGenjang_SDB_MC_Semua">Sisi Dalam Bawah (sdb)</string>
+    <string name="TV_Output_JajarGenjang_Luas_MC_Semua">LUAS (L) :</string>
+    <string name="TV_Output_JajarGenjang_Keliling_MC_Semua">KELILING (K) :</string>
+	<string name="TV_Output_JajarGenjang_SA_MC_Semua">1/2 ALAS :</string>
+	<string name="TV_Output_JajarGenjang_D1_MC_Semua">DIAGONAL 1 (d1) :</string>
+	<string name="TV_Output_JajarGenjang_D2_MC_Semua">DIAGONAL 2 (d2) :</string>
+	<string name="TV_Judul_JajarGenjang_MC_HLK">Jajar Genjang</string>
+	<string name="TV_SubJudul_JajarGenjang_MC_HLK">Mode Cari : Hanya Luas dan Keliling</string>
+	<string name="TV_Input_JajarGenjang_Alas_MC_HLK">Alas (a)</string>
+	<string name="TV_Input_JajarGenjang_Tinggi_MC_HLK">Tinggi (t)</string>
+	<string name="TV_Input_JajarGenjang_SM_MC_HLK">Sisi Miring (sm)</string>
+	<string name="TV_Output_JajarGenjang_Luas_MC_HLK">LUAS (L) :</string>
+	<string name="TV_Output_JajarGenjang_Keliling_MC_HLK">KELILING (K) :</string>
+	<string name="IV_Gambar_JajarGenjang_MC_HLK">Gambar Jajar Genjang. Unit input nilai lihat berdasarkan pada gambar.</string>
+	<string name="TV_Judul_JajarGenjang_MC_HT">Jajar Genjang</string>
+	<string name="TV_SubJudul_JajarGenjang_MC_HT">Mode Cari : Hanya Tinggi</string>
+	<string name="IV_Gambar_JajarGenjang_MC_HT">Gambar Jajar Genjang. Unit input nilai lihat berdasarkan pada gambar.</string>
+	<string name="TV_Input_JajarGenjang_Luas_MC_HT">Luas (L)</string>
+	<string name="TV_Input_JajarGenjang_Alas_MC_HT">Alas (a)</string>
+	<string name="TV_Output_JajarGenjang_Tinggi_MC_HT">TINGGI (t)</string>
+	<string name="TV_Judul_JajarGenjang_MC_HA">Jajar Genjang</string>
+	<string name="TV_SubJudul_JajarGenjang_MC_HA">Mode Cari : Hanya Alas</string>
+	<string name="IV_Gambar_JajarGenjang_MC_HA">Gambar Jajar Genjang. Unit input nilai lihat berdasarkan pada gambar.</string>
+	<string name="TV_Input_JajarGenjang_Luas_MC_HA">LUAS (L) :</string>
+	<string name="TV_Input_JajarGenjang_Tinggi_MC_HA">Tinggi (t) :</string>
+	<string name="TV_Output_JajarGenjang_Alas_MC_HA">ALAS (a) :</string>
+	<string name="TV_Judul_JajarGenjang_MC_HD1">Jajar Genjang</string>
+	<string name="TV_SubJudul_JajarGenjang_MC_HD1">Mode Cari : Hanya Diagonal 1</string>
+	<string name="TV_Input_JajarGenjang_Tinggi_MC_HD1">Tinggi (t) :</string>
+	<string name="TV_Input_JajarGenjang_SDA_MC_HD1">Sisi Dalam Atas (sda) : (Lihat Gambar)</string>
+	<string name="TV_Input_JajarGenjang_SDB_MC_HD1">Sisi Dalam Bawah (sdb) : (Lihat Gambar)</string>
+	<string name="TV_Output_JajarGenjang_D1_MC_HD1">DIAGONAL 1 (d1) :</string>
+	<string name="IV_Gambar_JajarGenjang_MC_HD1">Gambar Jajar Genjang. Point-Point Penghitungan Lihat Berdasarkan Parameter di Gambar</string>
+	<string name="TV_Judul_JajarGenjang_MC_HD2">Jajar Genjang</string>
+	<string name="TV_SubJudul_JajarGenjang_MC_HD2">Mode Cari : Hanya Diagonal 2</string>
+	<string name="IV_Gambar_JajarGenjang_MC_HD2">Gambar Jajar Genjang. Point-Point Penghitungan Lihat Berdasarkan Parameter di Gambar</string>
+	<string name="TV_Input_JajarGenjang_Tinggi_MC_HD2">Tinggi (t) :</string>
+	<string name="TV_Input_JajarGenjang_SDA_MC_HD2">Sisi Dalam Atas (sda) : (Lihat Gambar)</string>
+	<string name="TV_Input_JajarGenjang_SDB_MC_HD2">Sisi Dalam Bawah (sdb) : (Lihat Gambar)</string>
+	<string name="TV_Output_JajarGenjang_D2_MC_HD2">DIAGONAL 2 (d2) :</string>
+	<string name="TV_Judul_LL">Layang-Layang (Beraturan)</string>
+	<string name="TV_PilihModeCari_LL">Pilih Mode Cari</string>
+	<string name="IV_LL">Point Point Penghitungan Lihat Berdasarkan Parameter di dalam Gambar</string>
+	<string name="Button_MC_Semua_LL">Semua Unit</string>
+	<string name="Button_MC_HSA_HSB_LL">Hanya Sisi Miring Atas [sma]/Bawah [smb]</string>
+	<string name="Button_MC_HDV_LL">Hanya Diagonal Vertikal [dv]</string>
+	<string name="Button_MC_HDVA_LL">Hanya Diagonal Vertikal Atas [dva]</string>
+	<string name="Button_MC_HDVB_LL">Hanya Diagonal Vertikal Bawah [dvb]</string>
+	<string name="Button_MC_HDH_LL">Hanya Diagonal Horizontal [dh]</string>
+	<string name="TV_Keterangan_LL">Keterangan :</string>
+	<string name="TV_Keterangan1_LL">[sma] = Sisi Miring bagian Atas</string>
+	<string name="TV_Keterangan2_LL">[smb] = Sisi Miring bagian Bawah</string>
+	<string name="TV_Keterangan3_LL">[dh] = Diagonal Horizontal</string>
+	<string name="TV_Keterangan4_LL">[dv] = Diagonal Vertikal</string>
+	<string name="TV_Keterangan5_LL">[dva] = Diagonal Vertikal bagian Atas</string>
+	<string name="TV_Keterangan6_LL">[dvb] = Diagonal Vertikal bagian Bawah</string>
+	<string name="LH_GambarLayangLayang">[dvb] = Gambar Layang Layang</string>
+	<string name="TV_SubJudul_LL_MC_Semua">Mode Cari : Semua Unit</string>
+	<string name="TV_Input_LL_SMA_MC_Semua">Sisi Miring Atas [sma]</string>
+	<string name="TV_Input_LL_SMB_MC_Semua">Sisi Miring Bawah [smb]</string>
+	<string name="TV_Input_LL_DV_MC_Semua">Diagonal Vertikal [dv]</string>
+	<string name="TV_Input_LL_DH_MC_Semua">Diagonal Horizontal [dh]</string>
+	<string name="TV_Output_LL_Luas_MC_Semua">LUAS :</string>
+	<string name="TV_Output_LL_Keliling_MC_Semua">KELILING :</string>
+	<string name="TV_Output_LL_S_DV_MC_Semua">1/2 DIAGONAL VERTIKAL [1/2dv] :</string>
+	<string name="TV_Output_LL_S_DH_MC_Semua">1/2 DIAGONAL HORIZONTAL [1/2dh] :</string>
+	<string name="TV_Output_LL_DVA_MC_Semua">DIAGONAL VERTIKAL ATAS [dva] :</string>
+	<string name="TV_Output_LL_DVB_MC_Semua">DIAGONAL VERTIKAL BAWAH [dva] :</string>
+	<string name="TV_SubJudul_LL_MC_HSA_HSB">Mode Cari : Hanya Sisi Miring Atas [hsa] dan Bawah [hsb].</string>
+	<string name="TV_Input_LL_DH_MC_HSA_HSB">Diagonal Horizontal [dh] : </string>
+	<string name="TV_Input_LL_DVA_MC_HSA_HSB">Diagonal Vertikal Atas [dva] : </string>
+	<string name="TV_Input_LL_DVB_MC_HSA_HSB">Diagonal Vertikal Bawah [dvb] : </string>
+	<string name="TV_Output_LL_SMA_MC_HSA_HSB">SISI MIRING ATAS [sma] :</string>
+	<string name="TV_Output_LL_SMB_MC_HSA_HSB">SISI MIRING BAWAH [smb] :</string>
+	<string name="TV_SubJudul_LL_MC_HDV">Mode Cari : Hanya Diagonal Vertikal [dv] (Lihat Gambar)</string>
+	<string name="TV_Input_LL_Luas_MC_HDV">Luas (L) :</string>
+	<string name="TV_Input_LL_DH_MC_HDV">Diagonal Horizontal [dh] :</string>
+	<string name="TV_Output_LL_DV_MC_HDV">DIAGONAL VERTIKAL [dv] :</string>
+	<string name="TV_SubJudul_LL_MC_HDV_A">Mode Cari : Hanya Diagonal Vertikal Atas [dva] (Lihat Gambar)</string>
+	<string name="TV_Input_LL_DH_MC_HDV_A">Diagonal Horizontal [dh] :</string>
+	<string name="TV_Input_LL_SMA_MC_HDV_A">Sisi Miring Atas [sma] : (Lihat Gambar)</string>
+	<string name="TV_Output_LL_DVA_MC_HDV_A">DIAGONAL VERTIKAL ATAS [dva] :</string>
+	<string name="TV_SubJudul_LL_MC_HDV_B">Mode Cari : Hanya Diagonal Vertikal Bawah [dvb] (Lihat Gambar)</string>
+	<string name="TV_Input_LL_DH_MC_HDV_B">Diagonal Horizontal [dv] :</string>
+	<string name="TV_Input_LL_SMB_MC_HDV_B">Sisi Miring Bawah [smb] : (Lihat Gambar)</string>
+	<string name="TV_Output_LL_DVB_MC_HDV_B">DIAGONAL VERTIKAL BAWAH [dvb] :</string>
+	<string name="TV_SubJudul_LL_MC_HDH">Mode Cari : Hanya Diagonal Horizontal [dv]. (Lihat Gambar)</string>
+	<string name="TV_Input_LL_Luas_MC_HDH">Diagonal Vertikal [dv] : (Lihat Gambar)</string>
+	<string name="TV_Output_LL_DH_MC_HDH">DIAGONAL HORIZONTAL [dh] :</string>
+	<string name="TV_Judul_Lingkaran">LINGKARAN</string>
+	<string name="TV_PilihModeCari_Lingkaran">Pilih Unit Yang Ingin Di hitung : </string>
+	<string name="IV_Lingkaran">Gambar Lingkaran. Unit yang ingin dihitung lihat berdasarkan pada gambar.</string>
+	<string name="Button_MC_Semua_Lingkaran">Semua Unit</string>
+	<string name="Button_MC_HanyaJariJari_Lingkaran">Hanya Jari-Jari [r]</string>
+	<string name="TV_Judul_Lingkaran_MC_Semua">Lingkaran</string>
+	<string name="TV_SubJudul_Lingkaran_MC_Semua">Mode Cari : Semua Unit</string>
+	<string name="TV_Input_Lingkaran_R_MC_Semua">Jari-Jari [r]</string>
+	<string name="TV_Output_Lingkaran_Luas_MC_Semua">LUAS : </string>
+	<string name="TV_Output_Lingkaran_Keliling_MC_Semua">KELILING : </string>
+	<string name="TV_Output_Lingkaran_Diameter_MC_Semua">DIAMETER [d] : </string>
+	<string name="TV_Output_Lingkaran_lstgh_MC_Semua">LUAS 1/2 LINGKARAN : </string>
+	<string name="TV_Output_Lingkaran_lsprmt_MC_Semua">LUAS 1/4 LINGKARAN : </string>
+	<string name="TV_Output_Lingkaran_ltprmt_MC_Semua">LUAS 3/4 LINGKARAN : </string>
+	<string name="TV_Output_Lingkaran_kstgh_MC_Semua">KELILING 1/2 LINGKARAN : </string>
+	<string name="TV_Output_Lingkaran_ksprmt_MC_Semua">KELILING 1/4 LINGKARAN : </string>
+	<string name="TV_Output_Lingkaran_ktprmt_MC_Semua">KELILING 3/4 LINGKARAN : </string>
+	<string name="TV_SubJudul_Lingkaran_MC_HJJ_JD_Diameter">Mode Cari : Hanya Jari-Jari [r]</string>
+	<string name="TV_Jenis_Input_L_MC_HJJ_JD_D">Jika Yang Diketahui Adalah : DIAMETER [d]</string>
+	<string name="TV_Input_Lingkaran_MC_HJJ_JD_D">Diameter [d] : </string>
+	<string name="TV_Output_Lingkaran_JariJari_MC_HJJ_JD_D">JARI-JARI [r] : </string>
+	<string name="TV_PilihModeCari_Lingkaran_MC_HJJ">Mode Cari : Hanya Jari-Jari [r]</string>
+	<string name="Button_MC_HJJ_Lingkaran_JD_Diameter">Jika Diketahui : DIAMETER [d]</string>
+	<string name="Button_MC_HJJ_Lingkaran_JD_Keliling">Jika Diketahui : KELILING </string>
+	<string name="Button_MC_HJJ_Lingkaran_JD_Luas">Jika Diketahui : LUAS</string>
+	<string name="TV_JenisParameter_Lingkaran_MC_HJJ">Cari Berdasarkan Parameter :</string>
+	<string name="TV_SubJudul_Lingkaran_MC_HJJ_JD_Keliling">Mode Cari : Hanya Jari-Jari [r]</string>
+	<string name="TV_Jenis_Input_L_MC_HJJ_JD_K">Jika Yang Diketahui Adalah : KELILING</string>
+	<string name="TV_Input_Lingkaran_MC_HJJ_JD_K">KELILING :</string>
+	<string name="TV_Output_Lingkaran_JariJari_MC_HJJ_JD_K">JARI-JARI [r] :</string>
+	<string name="TV_SubJudul_Lingkaran_MC_HJJ_JD_Luas">Mode Cari : Hanya Jari-Jari [r]</string>
+	<string name="TV_Jenis_Input_L_MC_HJJ_JD_L">Jika Yang Diketahui Adalah : LUAS</string>
+	<string name="TV_Input_Lingkaran_MC_HJJ_JD_L">Luas : </string>
+	<string name="TV_Output_Lingkaran_JariJari_MC_HJJ_JD_L">JARI JARI [r] : </string>
+    <string name="TV_SubJudul_T">Pilih Jenis Trapesium :</string>
+    <string name="Button_TrapesiumSamaKaki_Pilihan">Trapesium Sama Kaki</string>
+    <string name="Button_TrapesiumSembarang_Pilihan">Trapesium Sembarang</string>
+    <string name="Button_TrapesiumSikuSiku_Pilihan">Trapesium Siku-Siku</string>
+    <string name="TV_Judul_T">TRAPESIUM</string>
+    <string name="TV_PilihModeCari_T">Pilih Unit Yang Ingin Dihitung :</string>
+    <string name="IV_Trapesium">Gambar Trapesium. Unit yang ingin dihitung lihat berdasarkan pada gambar.</string>
+    <string name="TV_Judul_TSK">Trapesium - Sama Kaki.</string>
+    <string name="Button_MC_Semua_TSK">SEMUA UNIT</string>
+    <string name="Button_MC_HSA_TSK">Hanya Sisi Atas [sa]</string>
+    <string name="Button_MC_HSB_TSK">Hanya Sisi Bawah [sb]</string>
+    <string name="Button_MC_HSM_TSK">Hanya Sisi Miring [sm]</string>
+    <string name="Button_MC_HT_TSK">Hanya Tinggi [t]</string>
+    <string name="Button_MC_HSMD_TSK">Hanya Sisi Miring Bagian Dalam [smd]</string>
+    <string name="Button_MC_HSBKR_TSK">Hanya Sisi Bawah Sebelah Kiri [sbkr]</string>
+    <string name="Button_MC_HSBKN_TSK">Hanya Sisi Bawah Sebelah Kanan [sbkn]</string>
+    <string name="TV_Keterangan_TSK_0">[sa] = Sisi Atas</string>
+    <string name="TV_Keterangan_TSK_1">[sb] = Sisi Bawah</string>
+    <string name="TV_Keterangan_TSK_2">[sm] = Sisi Miring</string>
+    <string name="TV_Keterangan_TSK_3">[smd] = Sisi Miring Bagian Dalam</string>
+    <string name="TV_Keterangan_TSK_4">[t] = Tinggi</string>
+    <string name="TV_Keterangan_TSK_5">[sbkr] = Sisi Bawah Sebelah Kiri</string>
+    <string name="TV_Keterangan_TSK_6">[sbkn] = Sisi Bawah Sebelah Kanan</string>
+    <string name="TV_Judul_T_SamaKaki">Trapesium - SamaKaki</string>
+    <string name="TV_SubJudul_T_SamaKaki_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="IV_T_SamaKaki">Gambar Trapesium Samakaki. Unit Penghitungan lihat berdasarkan parameter di gambar ini.</string>
+    <string name="TV_Input_T_SamaKaki_SA_MC_Semua">Sisi Atas [sa] :</string>
+    <string name="TV_Input_T_SamaKaki_SB_MC_Semua">Sisi Bawah [sb] :</string>
+    <string name="TV_Input_T_SamaKaki_SM_MC_Semua">Sisi Miring [sm] :</string>
+    <string name="TV_Input_T_SamaKaki_T_MC_Semua">Tinggi [t] :</string>
+    <string name="TV_Output_T_SamaKaki_Luas_MC_Semua">LUAS :</string>
+    <string name="TV_Output_T_SamaKaki_Keliling_MC_Semua">KELILING :</string>
+    <string name="TV_Output_T_SamaKaki_SMD_MC_Semua">SISI MIRING BAGIAN DALAM [smd] :</string>
+    <string name="TV_Output_T_SamaKaki_SBKr_MC_Semua">SISI BAWAH SEBELAH KIRI [sbkr] :</string>
+    <string name="TV_Output_T_SamaKaki_SBKn_MC_Semua">SISI BAWAH SEBELAH KANAN [sbkn] :</string>
+    <string name="TV_SubJudul_T_SamaKaki_MC_HSA">Mode Cari : Hanya Sisi Atas [sa]</string>
+    <string name="TV_Input_T_SamaKaki_Luas_MC_HSA">Luas :</string>
+    <string name="TV_Input_T_SamaKaki_Tinggi_MC_HSA">Tinggi [t] :</string>
+    <string name="TV_Input_T_SamaKaki_SBKn_MC_HSA">Sisi Bawah Kanan [sbkn] :</string>
+    <string name="TV_Output_T_SamaKaki_SA_MC_HSA">SISI ATAS [sa] :</string>
+    <string name="TV_SubJudul_T_SamaKaki_MC_HSB">Mode Cari : Hanya Sisi Bawah [sb]</string>
+    <string name="TV_Input_T_SamaKaki_Luas_MC_HSB">Luas :</string>
+    <string name="TV_Input_T_SamaKaki_SM_MC_HSB">Sisi Miring [sm] :</string>
+    <string name="TV_Input_T_SamaKaki_SA_MC_HSB">Sisi Atas [sa] :</string>
+    <string name="TV_Output_T_SamaKaki_SB_MC_HSB">SISI BAWAH [sb] :</string>
+    <string name="TV_SubJudul_T_SamaKaki_MC_HSM">Mode Cari : Hanya Sisi Miring [sm]</string>
+    <string name="TV_Input_T_SamaKaki_Tinggi_MC_HSM">Tinggi [t] :</string>
+    <string name="TV_Input_T_SamaKaki_SBKr_MC_HSM">Sisi Bawah Sebelah Kiri [sbkr] :</string>
+    <string name="TV_Output_T_SamaKaki_SM_MC_HSM">SISI MIRING [sm] :</string>
+    <string name="TV_SubJudul_T_SamaKaki_MC_HT">Mode Cari : Hanya Tinggi [t] :</string>
+    <string name="TV_Input_T_SamaKaki_Luas_MC_HT">Luas :</string>
+    <string name="TV_Input_T_SamaKaki_SA_MC_HT">Sisi Atas [sa] :</string>
+    <string name="TV_Input_T_SamaKaki_SBKn_MC_HT">Sisi Bawah Sebelah Kanan [sbkn] :</string>
+    <string name="TV_Output_T_SamaKaki_T_MC_HT">TINGGI [t] :</string>
+    <string name="TV_SubJudul_T_SamaKaki_MC_HSMD">Mode Cari : Hanya Sisi Miring Bagian Dalam [hsmd]</string>
+    <string name="TV_Input_T_SamaKaki_SBKn_MC_HSMD">Sisi Bawah Kanan [sbkn] :</string>
+    <string name="TV_Input_T_SamaKaki_Tinggi_MC_HSMD">Tinggi [t] :</string>
+    <string name="TV_Output_T_SamaKaki_SMD_MC_HSMD">SISI MIRING BAGIAN DALAM [smd] :</string>
+    <string name="TV_SubJudul_T_SamaKaki_MC_HSBKr">Mode Cari : Hanya Sisi Bawah Sebelah Kiri [sbkr]</string>
+    <string name="TV_Input_T_SamaKaki_Tinggi_MC_HSBKr">Tinggi [t] :</string>
+    <string name="TV_Input_T_SamaKaki_SM_MC_HSBKr">Sisi Miring [sm] :</string>
+    <string name="TV_Output_T_SamaKaki_SBKr_MC_HSBKr">SISI BAWAH SEBELAH KIRI [sbkr] : </string>
+    <string name="TV_SubJudul_T_SamaKaki_MC_HSBKn">Mode Cari : Hanya Sisi Bawah Sebelah Kanan [sbkn]</string>
+    <string name="TV_Input_T_SamaKaki_Tinggi_MC_HSBKn">Tinggi [t] :</string>
+    <string name="TV_Input_T_SamaKaki_SMD_MC_HSBKn">Sisi Miring Bagian Dalam [smd] :</string>
+    <string name="TV_Output_T_SamaKaki_SBKn_MC_HSBKn">SISI BAWAH SEBELAH KANAN [sbkn] : </string>
+    <string name="TV_Judul_TSm">Trapesium Sembarang</string>
+    <string name="TV_PilihModeCari_TSm">Pilih Unit Yang Ingin Dihitung :</string>
+    <string name="IV_TrapesiumSembarang">Gambar Trapesium Sembarang. Unit Penghitungan berdasarkan parameter pada gambar.</string>
+    <string name="Button_MC_Semua_TSm">Semua Unit</string>
+    <string name="Button_MC_HSA_TSm">Hanya Sisi Atas [SA]</string>
+    <string name="Button_MC_HSB_TSm">Hanya Sisi Bawah [SB]</string>
+    <string name="Button_MC_HSKr_TSm">Hanya Sisi Kiri [skr]</string>
+    <string name="Button_MC_HT_TSm">Hanya Tinggi [t]</string>
+    <string name="Button_MC_HSBKr_TSm">Hanya Sisi Bawah Sebelah Kiri [sbkr]</string>
+    <string name="TV_Keterangan_TSm_0">Keterangan : </string>
+    <string name="TV_Keterangan_TSm_1">SA = Sisi Atas</string>
+    <string name="TV_Keterangan_TSm_2">SB = Sisi Bawah</string>
+    <string name="TV_Keterangan_TSm_3">skr = Sisi Kiri</string>
+    <string name="TV_Keterangan_TSm_4">skn = Sisi Kanan</string>
+    <string name="TV_Keterangan_TSm_5">t = Tinggi</string>
+    <string name="TV_Keterangan_TSm_6">sbkr = Sisi Bawah Sebelah Kiri</string>
+    <string name="TV_Keterangan_TSm_7">sbkn = Sisi Bawah Sebelah Kanan</string>
+    <string name="TV_Judul_T_Sembarang">Trapesium Sembarang</string>
+    <string name="TV_SubJudul_T_Sembarang_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="TV_Input_T_Sembarang_SA_MC_Semua">Sisi Atas [sa] :</string>
+    <string name="TV_Input_T_Sembarang_SB_MC_Semua">Sisi Bawah [sb] :</string>
+    <string name="TV_Input_T_Sembarang_SKr_MC_Semua">Sisi Kiri [skr] :</string>
+    <string name="TV_Input_T_Sembarang_SKn_MC_Semua">Sisi Kanan [skn] :</string>
+    <string name="TV_Input_T_Sembarang_Tinggi_MC_Semua">Tinggi [t] :</string>
+    <string name="TV_Output_T_Sembarang_Luas_MC_Semua">LUAS :</string>
+    <string name="TV_Output_T_Sembarang_Keliling_MC_Semua">KELILING :</string>
+    <string name="TV_Output_T_Sembarang_SBKr_MC_Semua">SISI BAWAH SEBELAH KIRI [sbkr] :</string>
+    <string name="TV_SubJudul_T_Sembarang_MC_HSA">Mode Cari : Hanya Sisi Atas [sa]</string>
+    <string name="TV_Input_T_Sembarang_Luas_MC_HSA">Luas :</string>
+    <string name="TV_Input_T_Sembarang_Tinggi_MC_HSA">Tinggi [t] :</string>
+    <string name="TV_Input_T_Sembarang_SBKr_MC_HSA">Sisi Bawah Sebelah Kiri [sbkr] :</string>
+    <string name="TV_Input_T_Sembarang_SBKn_MC_HSA">Sisi Bawah Sebelah Kanan [sbkn] :</string>
+    <string name="TV_Output_T_Sembarang_SA_MC_HSA">SISI ATAS [sa] :</string>
+    <string name="TV_SubJudul_T_Sembarang_MC_HSB">Mode Cari : Hanya Sisi Bawah [hsb] :</string>
+    <string name="TV_Input_T_Sembarang_Luas_MC_HSB">Luas :</string>
+    <string name="TV_Input_T_Sembarang_Tinggi_MC_HSB">Tinggi [t] :</string>
+    <string name="TV_Input_T_Sembarang_SA_MC_HSB">Sisi Atas [sa] :</string>
+    <string name="TV_Output_T_Sembarang_SB_MC_HSB">Sisi Bawah [sb] :</string>
+    <string name="TV_SubJudul_T_Sembarang_MC_HSKr">Mode Cari : Hanya Sisi Kiri [skr]</string>
+    <string name="TV_Input_T_Sembarang_Tinggi_MC_HSKr">Tinggi [t] :</string>
+    <string name="TV_Input_T_Sembarang_SBKr_MC_HSKr">Sisi Bawah Kiri [sbkr] :</string>
+    <string name="TV_Output_T_Sembarang_SKr_MC_HSKr">SISI KIRI [skr] :</string>
+    <string name="TV_SubJudul_T_Sembarang_MC_HT">Mode Cari : Hanya Tinggi [t]</string>
+    <string name="TV_Input_T_Sembarang_Luas_MC_HT">Luas : </string>
+    <string name="TV_Input_T_Sembarang_SA_MC_HT">Sisi Atas [sa] : </string>
+    <string name="TV_Input_T_Sembarang_SB_MC_HT">Sisi Bawah [sb] : </string>
+    <string name="TV_Output_T_Sembarang_T_MC_HT">TINGGI [t] : </string>
+    <string name="TV_SubJudul_T_Sembarang_MC_HSBKr">Mode Cari : Hanya Sisi Bawah Sebelah Kiri [hsbkr]</string>
+    <string name="TV_Input_T_Sembarang_Tinggi_MC_HSBKr">Tinggi [t] :</string>
+    <string name="TV_Input_T_Sembarang_SKr_MC_HSBKr">Sisi Kiri [skr] :</string>
+    <string name="TV_Output_T_Sembarang_SBKr_MC_HSBKr">Sisi Bawah Sebelah Kiri [sbkr] :</string>
+    <string name="TV_Judul_TSKu">Trapesium Siku-Siku</string>
+    <string name="TV_PilihModeCari_TSKu">Pilih Unit Yang Ingin Dihitung :</string>
+    <string name="IV_TrapesiumSikuSiku">Gambar Trapesium Siku-Siku. Unit penghitungan lihat berdasarkan parameter di gambar.</string>
+    <string name="Button_MC_Semua_TSKu">Semua Unit</string>
+    <string name="Button_MC_HSA_TSKu">Hanya Sisi Atas [sa]</string>
+    <string name="Button_MC_HSB_TSKu">Hanya Sisi Bawah [sb]</string>
+    <string name="Button_MC_HSM_TSKu">Hanya Sisi Miring [sm]</string>
+    <string name="Button_MC_HT_TSKu">Hanya Tinggi [t]</string>
+    <string name="TV_Keterangan_TSKu_0">Keterangan :</string>
+    <string name="TV_Keterangan_TSKu_1">[sa] = Sisi Atas</string>
+    <string name="TV_Keterangan_TSKu_2">[sb] = Sisi Bawah</string>
+    <string name="TV_Keterangan_TSKu_3">[sm] = Sisi Miring </string>
+    <string name="TV_Keterangan_TSKu_4">[t] = Tinggi</string>
+    <string name="TV_SubJudul_TSKu_MC_Semua">Mode Cari : Semua Unit</string>
+    <string name="TV_Input_TSKu_SA_MC_Semua">Sisi Atas [sa] : </string>
+    <string name="TV_Input_TSKu_SB_MC_Semua">Sisi Bawah [sb] : </string>
+    <string name="TV_Input_TSKu_T_MC_Semua">Tinggi [t] : </string>
+    <string name="TV_Input_TSKu_SM_MC_Semua">Sisi Miring [sm] : </string>
+    <string name="TV_Output_TSKu_Luas_MC_Semua">LUAS : </string>
+    <string name="TV_Output_TSKu_Keliling_MC_Semua">KELILING : </string>
+    <string name="TV_SubJudul_TSKu_MC_HSA">Mode Cari : Hanya Sisi Atas [sa] </string>
+    <string name="TV_Input_TSKu_Luas_MC_HSA">Luas : </string>
+    <string name="TV_Input_TSKu_T_MC_HSA">Tinggi [t] : </string>
+    <string name="TV_Input_TSKu_SB_MC_HSA">Sisi Bawah [sb] : </string>
+    <string name="TV_Output_TSKu_SA_MC_HSA">SISI ATAS [sa] : </string>
+    <string name="TV_SubJudul_TSKu_MC_HSB">Mode Cari : Hanya Sisi Bawah [sb] </string>
+    <string name="TV_Input_TSKu_Luas_MC_HSB">Luas : </string>
+    <string name="TV_Input_TSKu_T_MC_HSB">Tinggi [t] : </string>
+    <string name="TV_Input_TSKu_SA_MC_HSB">Sisi Atas [sa] : </string>
+    <string name="TV_Output_TSKu_SB_MC_HSB">SISI BAWAH [sb] : </string>
+    <string name="TV_SubJudul_TSKu_MC_HT">Mode Cari : Hanya Tinggi [t] </string>
+    <string name="TV_Input_TSKu_Luas_MC_HT">Luas : </string>
+    <string name="TV_Input_TSKu_SA_MC_HT">Sisi Atas [sa] : </string>
+    <string name="TV_Input_TSKu_SB_MC_HT">Sisi Bawah [sb] : </string>
+    <string name="TV_Output_TSKu_T_MC_HT">TINGGI [t] : </string>
+    <string name="TV_Judul_SE">SEGIENAM</string>
+    <string name="TV_SubJudul_SE">SegiEnam Beraturan</string>
+    <string name="IV_Gambar_SE">Gambar Segi Enam Beraturan. Unit penghitungan lihat berdasarkan parameter di gambar.</string>
+    <string name="IV_Garis">Garis</string>
+    <string name="TV_Input_SE_Sisi">Sisi [s] :</string>
+    <string name="TV_Output_SE_Luas">LUAS : </string>
+    <string name="TV_Output_SE_Keliling">KELILING : </string>
+    <string name="TV_Output_SE_Diagonal">DIAGONAL [d] : </string>
+    <string name="TV_Output_SE_Tinggi">TINGGI [t] : </string>
+    <string name="TV_Output_SE_SetengahDiagonal">1/2 DIAGONAL : </string>
+    <string name="TV_Output_SE_SetengahLuas">1/2 LUAS : </string>
+    <string name="TV_Judul_SL">SEGILIMA</string>
+    <string name="TV_SubJudul_SL">SegiLima Beraturan</string>
+    <string name="TV_PilihModeCari_SL">Pilih Unit Yang Ingin Di Hitung :</string>
+    <string name="IV_SL">Gambar Segi Lima Beraturan. Unit penghitungan lihat berdasarkan parameter di gambar.</string>
+    <string name="Button_MC_Semua_SL">Semua Unit</string>
+    <string name="Button_MC_HS_SL">Hanya Sisi [s]</string>
+    <string name="TV_Keterangan_SL_0">Keterangan :</string>
+    <string name="TV_Keterangan_SL_1">- [s] = Sisi</string>
+    <string name="TV_Keterangan_SL_2">- [d] = Diagonal</string>
+    <string name="TV_Keterangan_SL_3">- [t] = Tinggi</string>
+    <string name="TV_SubJudul_SL_MC">Mode Cari : Semua Unit</string>
+    <string name="TV_Input_SL_Sisi_MC_Semua">Sisi [s] :</string>
+    <string name="TV_Output_SL_Luas_MC_Semua">LUAS :</string>
+    <string name="TV_Output_SL_Keliling_MS_Semua">KELILING :</string>
+    <string name="TV_Output_SL_Diagonal_MC_Semua">DIAGONAL [d] :</string>
+    <string name="TV_Output_SL_Tinggi_MC_Semua">TINGGI [t] :</string>
+    <string name="TV_Output_SL_SL_MC_Semua">1/2 LUAS :</string>
+    <string name="TV_SubJudul_SL_MC_HS">Mode Cari : Hanya Sisi [s]</string>
+    <string name="TV_Input_SL_T_MC_HS">Tinggi [t] : </string>
+    <string name="TV_Output_SL_S_MC_HS">SISI [s] : </string>
+    <string name="TV_Input_SL_D_MC_HS">Diagonal [d] : </string>
+    <string name="IV_Elips">Gambar Elips. Unit penghitungan lihat berdasarkan parameter di gambar.</string>
+    <string name="TV_Judul_Elips">ELIPS</string>
+    <string name="TV_SubJudul_Elips">Mode Cari : Semua Unit</string>
+    <string name="TV_Input_Elips_SMy">Sumbu Mayor [r1] :</string>
+    <string name="TV_Input_Elips_SMn">Sumbu Minor [r2] :</string>
+    <string name="TV_Output_Elips_Luas">LUAS :</string>
+    <string name="TV_Output_Elips_Keliling">KELILING :</string>
+    <string name="TV_Output_Elips_Panjang">PANJANG [p] :</string>
+    <string name="TV_Output_Elips_Lebar">LEBAR [l] :</string>
+    <string name="TV_Output_Elips_S_Luas">1/2 LUAS :</string>
+    <string name="TV_Output_Elips_S_Keliling">1/2 KELILING :</string>
+    
+    <string name="TV_SL">Simetri Lipat</string>
+    <string name="TV_SP">Simetri Putar</string>
+    <string name="TV_SS">Sumbu Simetri</string>
+    <string name="TV_TS">Titik Sudut</string>
+    <string name="TV_JS">Jumlah Sisi</string>
+    <string name="GR">Garis_Lurus</string>
+    <string name="TV_R">Rumus :</string>
+    <string name="TV_KT">Keterangan :</string>
+    <string name="TV_Ket_SP_SegitigaSikuSiku_1">- Tidak Ada</string>
+    <string name="TV_Ket_TA">- Tidak Ada</string>
+    <string name="TV_Judul_E">ELIPS</string>
+    <string name="TV_LR_Judul_T_SAMAKAKI">TRAPESIUM SAMAKAKI</string>
+    <string name="TV_LR_Judul_T_SIKUSIKU">TRAPESIUM SIKUSIKU</string>
+    <string name="TV_LR_Judul_T_Sembarang">TRAPESIUM SEMBARANG</string>
+    <string name="TV_Pilih">Pilih Rumus Yang Ingin Dilihat :</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>
+
+
+
+
+
+
+
