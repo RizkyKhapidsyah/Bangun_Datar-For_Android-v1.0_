@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="6dp"
+        android:text="@+string/TV_Judul_T"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_SubJudul_T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="34dp"
+        android:text="@+string/TV_SubJudul_T"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/Button_TrapesiumSamaKaki_Pilihan"
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:layout_x="13dp"
+        android:layout_y="62dp"
+        android:drawableRight="@drawable/trapesium_samakaki_kecil"
+        android:text="@+string/Button_TrapesiumSamaKaki_Pilihan"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Button_TrapesiumSembarang_Pilihan"
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:layout_x="13dp"
+        android:layout_y="141dp"
+        android:drawableRight="@drawable/trapesium_sembarang_kecil"
+        android:text="@+string/Button_TrapesiumSembarang_Pilihan"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Button_TrapesiumSikuSiku_Pilihan"
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:layout_x="13dp"
+        android:layout_y="220dp"
+        android:drawableRight="@drawable/trapesium_sikusiku_kecil"
+        android:text="@+string/Button_TrapesiumSikuSiku_Pilihan"
+        android:textSize="14sp" />
+
+</AbsoluteLayout>

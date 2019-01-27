@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_S_SikuSiku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="6dp"
+        android:text="@+string/TV_Judul_S_SikuSiku"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_PilihModeCari_S_SikuSiku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="34dp"
+        android:text="@+string/TV_PilihModeCari"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/Button_MC_Semua_S_SikuSiku"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="226dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_Semua_S_SikuSiku"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HanyaSisiA_S_SikuSiku"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="276dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaSisiA_S_SikuSiku"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HanyaSisiB_S_SikuSiku"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="326dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaSisiB_S_SikuSiku"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HanyaSisiMiring_S_SikuSiku"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="376dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HanyaSisiMiring_S_SikuSiku"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/IV_SegitigaSikuSiku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="72dp"
+        android:contentDescription="@+string/IV_SegitigaSikuSiku"
+        android:src="@drawable/segitiga_sikusiku_besar" />
+
+</AbsoluteLayout>

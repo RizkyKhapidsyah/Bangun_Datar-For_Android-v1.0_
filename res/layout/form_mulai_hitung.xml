@@ -1,0 +1,148 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pxhere"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    tools:ignore="Deprecated" >
+
+    <Button
+        android:id="@+id/ButtonElips"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_x="142dp"
+        android:layout_y="353.5dp"
+        android:drawableTop="@drawable/button_elips"
+        android:text="@+string/ButtonElips"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonKembali"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_x="25dp"
+        android:layout_y="353.5dp"
+        android:drawableTop="@drawable/button_kembali"
+        android:text="@+string/ButtonKembali"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonSegilima"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="142dp"
+        android:layout_y="283dp"
+        android:drawableTop="@drawable/button_segilima"
+        android:text="@+string/ButtonSegilima"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonTrapesium"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="142dp"
+        android:layout_y="212dp"
+        android:drawableTop="@drawable/button_trapesium"
+        android:text="@+string/ButtonTrapesium"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonLingkaran"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="25dp"
+        android:layout_y="212dp"
+        android:drawableTop="@drawable/button_lingkaran"
+        android:text="@+string/ButtonLingkaran"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonSegienam"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="25dp"
+        android:layout_y="283dp"
+        android:drawableTop="@drawable/button_segienam"
+        android:text="@+string/ButtonSegienam"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonLayangLayang"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="142dp"
+        android:layout_y="141.5dp"
+        android:drawableTop="@drawable/button_layanglayang"
+        android:text="@+string/ButtonLayangLayang"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonJajarGenjang"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="25dp"
+        android:layout_y="141.5dp"
+        android:drawableTop="@drawable/button_jajargenjang"
+        android:text="@+string/ButtonJajarGenjang"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonBujurSangkar"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="25dp"
+        android:layout_y="0dp"
+        android:drawableTop="@drawable/button_bujursangkar"
+        android:onClick="ButtonBujurSangkar"
+        android:text="@+string/ButtonBujurSangkar"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonSegitiga"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="25dp"
+        android:layout_y="71dp"
+        android:drawableTop="@drawable/button_segitiga"
+        android:text="@+string/ButtonSegitiga"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonBelahKetupat"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="142dp"
+        android:layout_y="71dp"
+        android:drawableTop="@drawable/button_belahketupat"
+        android:text="@+string/ButtonBelahKetupat"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ButtonPersegiPanjang"
+        android:layout_width="120dp"
+        android:layout_height="74dp"
+        android:layout_x="142dp"
+        android:layout_y="0dp"
+        android:drawableTop="@drawable/button_persegipanjang"
+        android:onClick="ButtonPersegiPanjang"
+        android:text="@+string/ButtonPersegiPanjang"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

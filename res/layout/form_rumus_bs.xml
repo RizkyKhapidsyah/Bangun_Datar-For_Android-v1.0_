@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_form_rumus"
+    tools:ignore="Deprecated" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/IV_Rumus_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="6dp"
+            android:layout_y="46dp"
+            android:contentDescription="@string/TV_Judul_BS"
+            android:src="@drawable/lh_bujur_sangkar" />
+
+        <TextView
+            android:id="@+id/TV_Judul_Rumus_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="6dp"
+            android:layout_y="6dp"
+            android:text="@string/TV_Judul_BS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TV_SL_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="149dp"
+            android:layout_y="48dp"
+            android:text="@string/TV_SL"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_SL_TD_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="244dp"
+            android:layout_y="48dp"
+            android:text="@string/TextTitikDua"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_SL_JLH_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="251dp"
+            android:layout_y="48dp"
+            android:text="@string/AngkaEmpat"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_SP_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="149dp"
+            android:layout_y="64dp"
+            android:text="@string/TV_SP"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_SP_JLH_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="64dp"
+            android:text="@string/AngkaEmpat"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_SP_TD_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="244dp"
+            android:layout_y="64dp"
+            android:text="@string/TextTitikDua"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_SS_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="149dp"
+            android:layout_y="80dp"
+            android:text="@string/TV_SS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_SS_JLH_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="80dp"
+            android:text="@string/AngkaEmpat"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_SS_TD_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="244dp"
+            android:layout_y="80dp"
+            android:text="@string/TextTitikDua"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_TS_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="149dp"
+            android:layout_y="96dp"
+            android:text="@string/TV_TS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_TS_TD_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="244dp"
+            android:layout_y="96dp"
+            android:text="@string/TextTitikDua"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_TS_JLH_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="96dp"
+            android:text="@string/AngkaEmpat"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_JS_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="149dp"
+            android:layout_y="112dp"
+            android:text="@string/TV_JS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_JS_TD_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="244dp"
+            android:layout_y="112dp"
+            android:text="@string/TextTitikDua"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/TV_JS_JLH_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="112dp"
+            android:text="@string/AngkaEmpat"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/LR_ButtonHitung"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_x="147dp"
+            android:layout_y="134dp"
+            android:background="@drawable/button_hitung_lr"
+            android:drawableLeft="@drawable/button_hitung"
+            android:text="@string/Button_Hitung"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/IV_GR_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="181dp"
+            android:contentDescription="@string/GR"
+            android:src="@drawable/garis_2" />
+
+        <TextView
+            android:id="@+id/TV_R_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="196dp"
+            android:text="@string/TV_R"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_R_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="224dp"
+            android:contentDescription="@string/TV_R"
+            android:src="@drawable/rumus_persegi_atau_bujursangkar" />
+
+        <TextView
+            android:id="@+id/TV_KT_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="311dp"
+            android:text="@string/TV_KT"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_KT_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="334dp"
+            android:contentDescription="@string/TV_KT"
+            android:src="@drawable/rumus_persegi_atau_bujursangkar_2" />
+
+        <TextView
+            android:id="@+id/TV_SL_BS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="399dp"
+            android:contentDescription="@string/TV_SL"
+            android:text="@string/TV_SL"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_GambarSimetriLipat_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="18dp"
+            android:layout_y="422dp"
+            android:contentDescription="@string/TV_SL"
+            android:src="@drawable/simetri_lipat_persegi_atau_bujursangkar" />
+
+        <TextView
+            android:id="@+id/TV_SP_BS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="500dp"
+            android:contentDescription="@string/TV_SL"
+            android:text="@string/TV_SP"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_GambarSimetriPutar_BS"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_x="19dp"
+            android:layout_y="525dp"
+            android:contentDescription="@string/TV_SP"
+            android:src="@drawable/simetri_putar_persegi_atau_bujursangkar" />
+
+        <TextView
+            android:id="@+id/TV_TS_BS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="690dp"
+            android:contentDescription="@string/TV_SL"
+            android:text="@string/TV_TS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_GambarTitikSudut_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="716dp"
+            android:contentDescription="@string/TV_TS"
+            android:src="@drawable/titik_sudut_persegi_atau_bujur_sangkar" />
+
+        <TextView
+            android:id="@+id/TV_JS_BS_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="171dp"
+            android:layout_y="690dp"
+            android:contentDescription="@string/TV_SL"
+            android:text="@string/TV_JS"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_GambarJumlahSisi_BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="179dp"
+            android:layout_y="718dp"
+            android:contentDescription="@string/TV_JS"
+            android:src="@drawable/jumlah_sisi_persegi_atau_bujursangkar" />
+
+        <Button
+            android:id="@+id/LR_ButtonRingkasan"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_x="230dp"
+            android:layout_y="134dp"
+            android:background="@drawable/button_hitung_lr"
+            android:drawableLeft="@drawable/button_ringkasan_kecil"
+            android:text="@string/Button_Ringkasan"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/IV_GR_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="385dp"
+            android:contentDescription="@string/GR"
+            android:src="@drawable/garis_2" />
+
+        <ImageView
+            android:id="@+id/IV_GR_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="492dp"
+            android:contentDescription="@string/GR"
+            android:src="@drawable/garis_2" />
+
+        <ImageView
+            android:id="@+id/IV_GR_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="682dp"
+            android:contentDescription="@string/GR"
+            android:src="@drawable/garis_2" />
+
+    </AbsoluteLayout>
+
+</ScrollView>

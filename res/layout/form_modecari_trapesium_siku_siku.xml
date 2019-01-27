@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_TSKu_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="6dp"
+        android:text="@+string/TV_Judul_TSKu"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_PilihModeCari_TSKu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="34dp"
+        android:text="@+string/TV_PilihModeCari_TSKu"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSKu_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="355dp"
+        android:text="@+string/TV_Keterangan_TSKu_0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_MC_Semua_TSKu"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="52dp"
+        android:layout_y="192dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_Semua_TSKu"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSA_TSKu"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="52dp"
+        android:layout_y="218dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSA_TSKu"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSB_TSKu"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="52dp"
+        android:layout_y="244dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSB_TSKu"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSKu_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="368dp"
+        android:text="@+string/TV_Keterangan_TSKu_1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSKu_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="381dp"
+        android:text="@+string/TV_Keterangan_TSKu_2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSKu_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="395dp"
+        android:text="@+string/TV_Keterangan_TSKu_3"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/IV_TrapesiumSikuSiku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="82dp"
+        android:layout_y="72dp"
+        android:contentDescription="@+string/IV_TrapesiumSikuSiku"
+        android:src="@drawable/trapesium_siku_siku_besar" />
+
+    <Button
+        android:id="@+id/Button_MC_HT_TSKu"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="52dp"
+        android:layout_y="270dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HT_TSKu"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSKu_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="408dp"
+        android:text="@+string/TV_Keterangan_TSKu_4"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+</AbsoluteLayout>

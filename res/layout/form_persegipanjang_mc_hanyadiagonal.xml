@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <Button
+        android:id="@+id/Button_Hitung_PP_MC_HanyaDiagonal"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="164dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_hitung"
+        android:text="@+string/Button_Hitung"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_Input_PP_Panjang_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="62dp"
+        android:text="@string/TV_Input_PP_Panjang"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/ET_Input_PP_Panjang_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="80dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/TV_Input_PP_Lebar_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="112dp"
+        android:text="@+string/TV_Input_PP_Lebar"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/ET_Input_PP_Lebar_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="132dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_PP_Panjang_MC_HanyaDiagonal"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_x="241dp"
+        android:layout_y="84dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_PP_Lebar_MC_HanyaDiagonal"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_x="240dp"
+        android:layout_y="138dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_Reset_PP_MC_HanyaDiagonal"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="164dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_reset"
+        android:text="@+string/Button_Reset"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_Output_PP_Diagonal_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="246dp"
+        android:text="@string/TV_Output_PP_Diagonal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TV_TitikDua_PP_Diagonal_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="125dp"
+        android:layout_y="244dp"
+        android:text="@string/TextTitikDua"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/ET_Output_PP_Diagonal_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="268dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_PP_Diagonal_MC_HanyaDiagonal"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_x="241dp"
+        android:layout_y="272dp"
+        android:text="@+string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_Kembali_PP_MC_HanyaDiagonal"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="302dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_kembali"
+        android:text="@+string/Button_Kembali"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Detail_PP_MC_HanyaDiagonal"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="135dp"
+        android:layout_y="302dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_gambar"
+        android:text="@+string/Button_LihatGambar"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_Judul_PP_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="7dp"
+        android:text="@+string/TV_Judul_PP"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_SubJudul_PP_MC_HanyaDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="35dp"
+        android:text="@+string/TV_SubJudul_PP_MC_Diagonal"
+        android:textColor="#FF000000"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/Button_Rumus_PP_MC_HD"
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:layout_x="78dp"
+        android:layout_y="357dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_rumus_form"
+        android:text="@+string/Button_Rumus"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

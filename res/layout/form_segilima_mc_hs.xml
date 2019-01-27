@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_SL_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="7dp"
+        android:text="@+string/TV_Judul_SL"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_SubJudul_SL_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="33dp"
+        android:text="@+string/TV_SubJudul_SL_MC_HS"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/IV_Gambar_SL_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="120dp"
+        android:contentDescription="@+string/IV_SL"
+        android:src="@drawable/segilima_normal" />
+
+    <Button
+        android:id="@+id/Button_Hitung_SL_MC_HS"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_x="57dp"
+        android:layout_y="265dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_hitung"
+        android:text="@+string/Button_Hitung"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Reset_SL_MC_HS"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_x="165dp"
+        android:layout_y="265dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_reset"
+        android:text="@+string/Button_Reset"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Detail_SL_MC_HS"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_x="57dp"
+        android:layout_y="294dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_gambar"
+        android:text="@+string/Button_LihatGambar"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Button_Kembali_SL_MC_HS"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_x="165dp"
+        android:layout_y="294dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_kembali"
+        android:text="@+string/Button_Kembali"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TV_Input_SL_T_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="132dp"
+        android:text="@string/TV_Input_SL_T_MC_HS"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_SL_T_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="287dp"
+        android:layout_y="150dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Input_SL_T_MC_HS"
+        android:layout_width="132dp"
+        android:layout_height="18dp"
+        android:layout_x="150dp"
+        android:layout_y="148dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/IV_Garis_SL"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="168dp"
+        android:contentDescription="@+string/IV_Garis"
+        android:src="@drawable/garis" />
+
+    <TextView
+        android:id="@+id/TV_Output_SL_S_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="190dp"
+        android:text="@string/TV_Output_SL_S_MC_HS"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_SL_S_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="286dp"
+        android:layout_y="206dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Output_SL_S_MC_HS"
+        android:layout_width="132dp"
+        android:layout_height="18dp"
+        android:layout_x="150dp"
+        android:layout_y="204dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_Input_SL_D_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="97dp"
+        android:text="@string/TV_Input_SL_D_MC_HS"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/TV_SatuanNilai_SL_D_MC_HS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="287dp"
+        android:layout_y="115dp"
+        android:text="@string/TV_SatuanNilai"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ET_Input_SL_D_MC_HS"
+        android:layout_width="132dp"
+        android:layout_height="18dp"
+        android:layout_x="150dp"
+        android:layout_y="113dp"
+        android:background="@drawable/background_edittext_input_bs_1"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="12sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/Button_Rumus_Segilima_MC_HS"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:layout_x="109dp"
+        android:layout_y="324dp"
+        android:background="@drawable/background_button_hitung"
+        android:drawableLeft="@drawable/button_lihat_rumus_form"
+        android:text="@+string/Button_Rumus"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

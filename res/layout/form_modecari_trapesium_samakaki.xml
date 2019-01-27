@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_aplikasi_percobaan"
+    tools:ignore="SmallSp,Deprecated" >
+
+    <TextView
+        android:id="@+id/TV_Judul_TSK_MC_Semua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="6dp"
+        android:text="@+string/TV_Judul_TSK"
+        android:textColor="#FFFFFFFF" />
+
+    <TextView
+        android:id="@+id/TV_PilihModeCari_T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="34dp"
+        android:text="@+string/TV_PilihModeCari_T"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/IV_Trapesium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="84dp"
+        android:layout_y="54dp"
+        android:contentDescription="@+string/IV_Trapesium"
+        android:src="@drawable/trapesium_samakaki_normal_satu" />
+
+    <Button
+        android:id="@+id/Button_MC_Semua_TSK"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="50dp"
+        android:layout_y="156dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_Semua_TSK"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSA_TSK"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="50dp"
+        android:layout_y="182dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSA_TSK"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSB_TSK"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="50dp"
+        android:layout_y="208dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSB_TSK"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSM_TSK"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="50dp"
+        android:layout_y="234dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSM_TSK"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HT_TSK"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="50dp"
+        android:layout_y="260dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HT_TSK"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSMD_TSK"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="50dp"
+        android:layout_y="286dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSMD_TSK"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSBKR_TSK"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="50dp"
+        android:layout_y="312dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSBKR_TSK"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Button_MC_HSBKN_TSK"
+        android:layout_width="220dp"
+        android:layout_height="24dp"
+        android:layout_x="50dp"
+        android:layout_y="338dp"
+        android:background="@drawable/background_button_hitung"
+        android:text="@+string/Button_MC_HSBKN_TSK"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSK_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="366dp"
+        android:text="@+string/TV_Keterangan_TSK_0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSK_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="376dp"
+        android:text="@+string/TV_Keterangan_TSK_1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSK_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="386dp"
+        android:text="@+string/TV_Keterangan_TSK_2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSK_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="396dp"
+        android:text="@+string/TV_Keterangan_TSK_3"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSK_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="404dp"
+        android:text="@+string/TV_Keterangan_TSK_4"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSK_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="414dp"
+        android:text="@+string/TV_Keterangan_TSK_5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/TV_Keterangan_TSK_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="424dp"
+        android:text="@+string/TV_Keterangan_TSK_6"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="8sp" />
+
+</AbsoluteLayout>
